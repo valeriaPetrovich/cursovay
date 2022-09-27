@@ -45,9 +45,10 @@ const Cards = ({ page }) => {
               <img alt="" src={el.strMealThumb} className={`${styles.img} img-fluid`} />
               <div style={{ padding: "10px" }} className="content">
                 <div className="ubuntu fs-4 fw-bold mb-4">{el.strMeal}</div>
+                <div>Category : {el.strCategory}</div>
               </div>
             </div>
-            <div>{el.strCategory}</div>
+          
 
           </Link>
         );
