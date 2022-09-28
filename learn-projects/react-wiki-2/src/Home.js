@@ -6,6 +6,7 @@ import Pagination from "./components/Pagination/Pagination";
 import Search from "./components/Search/Search";
 import styles from "./components/Card/Card.module.scss";
 import {connect} from 'react-redux'
+import axios from "axios";
 
 const useCaracters=()=>{
   let [pageNumber, setPageNumber] = useState(1); //состояние влияет на переключение имен и самих карточек
@@ -14,9 +15,9 @@ const useCaracters=()=>{
   let [search, setSearch] = useState("");
   let [status, updateStatus] = useState("");
   let [gender, updateGender] = useState("");
-  let [species, updateSpecies] = useState("")  
-  
+  let [species, updateSpecies] = useState("");
   const debonse = Debounce((a) => setSearch(a), 500);
+  /*
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
   useEffect(() => {
     //информация из api
@@ -26,8 +27,30 @@ const useCaracters=()=>{
       updateFetchedData(data);
     }
     Async();
-  }, [api]);
+  }, [api]);*/
   
+
+  ////////////////useMeals///////////////////////////
+  let [fetcheMeals, setMeals] = useState([]);
+  /////////////////getMeals/////////////////////////
+  async function getApi() {
+    const meals = [];
+    let apiCoock = 'https://www.themealdb.com/api/json/v1/1/search.php?f=';
+    let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'v', 'w', 'y'];
+    const promises = letters.map((letter) => {
+      return axios.get(apiCoock + letter);
+    })
+
+    const res = await Promise.all(promises);
+    res.forEach((result) => {
+      meals.push(result.data.meals);
+      setMeals(meals)
+    });
+  }
+  useEffect(() => {
+    getApi();
+  }, [])
+  ///////////////////////////////////////////////////////
 
   return {pageNumber, setPageNumber, fetchedData, updateFetchedData, info, results, search, setSearch, status, updateStatus, gender, updateGender, species, updateSpecies, debonse}
 }
@@ -44,7 +67,7 @@ useEffect(() => {
 }, [results]);
   return (
     <div className="App">
-      <h1 className="text-center mp-4">Characters</h1>
+      <h1 className="text-center mp-4">aymlMenu</h1>
 
       <Search setPageNumber={setPageNumber} setSearch={debonse} />
       <div className="container ">

@@ -2,7 +2,7 @@ import React from "react";
 import FilterBTN from "../FilterBTN";
 
 const Status = ({ updateStatus, updatePageNumber }) => {
-  let status = ["Alive", "Dead", "Unknown"];
+  let status = ["Beef", "Breakfast", "Chicken", "Dessert", "Goat", "Lamb", "Miscellaneous", "Pasta", "Pork", "Seafood", "Side", "Starter", "Vegan", "Vegetarian"];
   return (
     <div className="accordion-item">
       <h2 className="accordion-header" id="headingOne">
@@ -14,7 +14,7 @@ const Status = ({ updateStatus, updatePageNumber }) => {
           aria-expanded="true"
           aria-controls="collapseOne"
         >
-          Status
+          Category
         </button>
       </h2>
       <div
@@ -31,7 +31,6 @@ const Status = ({ updateStatus, updatePageNumber }) => {
               name="status"
               task={updateStatus}
               input={item}
-              updatePageNumber={updatePageNumber}
 
             />
           ))}

@@ -4,7 +4,6 @@ import Species from "../Filter/Category/Species";
 import Status from "../Filter/Category/Status";
 
 const Filter = ({
-  pageNumber,
   updatePageNumber,
   updateStatus,
   updateGender,
