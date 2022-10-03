@@ -5,10 +5,10 @@ import React, { useState, useEffect } from "react";
 import Pagination from "./components/Pagination/Pagination";
 import Search from "./components/Search/Search";
 import styles from "./components/Card/Card.module.scss";
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 import axios from "axios";
 
-const useCaracters=()=>{
+const useCaracters = () => {
   let [pageNumber, setPageNumber] = useState(1); //состояние влияет на переключение имен и самих карточек
   let [fetchedData, updateFetchedData] = useState([]); //состояние карт
   let { info, results } = fetchedData;
@@ -17,18 +17,7 @@ const useCaracters=()=>{
   let [gender, updateGender] = useState("");
   let [species, updateSpecies] = useState("");
   const debonse = Debounce((a) => setSearch(a), 500);
-  /*
-  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
-  useEffect(() => {
-    //информация из api
-    
-    async function Async() {
-      let data = await fetch(api).then((res) => res.json());
-      updateFetchedData(data);
-    }
-    Async();
-  }, [api]);*/
-  
+
 
   ////////////////useMeals///////////////////////////
   let [fetcheMeals, setMeals] = useState([]);
@@ -52,23 +41,22 @@ const useCaracters=()=>{
   }, [])
   ///////////////////////////////////////////////////////
 
-  return {pageNumber, setPageNumber, fetchedData, updateFetchedData, info, results, search, setSearch, status, updateStatus, gender, updateGender, species, updateSpecies, debonse}
+  return { pageNumber, setPageNumber, fetchedData, updateFetchedData, info, results, search, setSearch, status, updateStatus, gender, updateGender, species, updateSpecies, debonse }
 }
 
 
-const Home = ({addCards, cards}) => {
-  
+const Home = ({ addCards, cards }) => {
 
 
-const a=useCaracters();
-const {pageNumber, setPageNumber,info, results, status, updateStatus,  updateGender,  updateSpecies, debonse}=a;
-useEffect(() => {
-  addCards(results ?? []);
-}, [results]);
+
+  const a = useCaracters();
+  const { pageNumber, setPageNumber, info, results, status, updateStatus, updateGender, updateSpecies, debonse } = a;
+  useEffect(() => {
+    addCards(results ?? []);
+  }, [results]);
   return (
     <div className="App">
-      <h1 className="text-center mp-4">aymlMenu</h1>
-
+      <h1 className={`${styles['impotant-title']} text-center mp-4`}>aymlMenu</h1>
       <Search setPageNumber={setPageNumber} setSearch={debonse} />
       <div className="container ">
         <div className="row">
@@ -99,12 +87,12 @@ useEffect(() => {
 };
 
 export default connect(
-  (state)=>({
-    cards:state.cards
+  (state) => ({
+    cards: state.cards
   }),
-  dispatch=>({
-    addCards: (cards)=>{
-      dispatch({type:"ADD_CARDS", payload: cards})
+  dispatch => ({
+    addCards: (cards) => {
+      dispatch({ type: "ADD_CARDS", payload: cards })
     }
   }),
 )(Home);

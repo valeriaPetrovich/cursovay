@@ -1,18 +1,46 @@
-
-.cards{
-    border: 2px solid blue;
-    border-radius: 10px;
-    
+.cards {
+  border: 2px solid #d1a954;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.badge{
-    top:10px;
-    right: 20px;
-    font-size: 17px;
+.impotant-title {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
 }
-.img{
-    border-radius: 10px 10px 0 0 ;
+.text-catd {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
 }
-.content{
-    margin-left: 350px;
-    margin-top: -410px;
+.badge {
+  top: 10px;
+  right: 20px;
+  font-size: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.img {
+  border-radius: 10px 10px 0 0;
+}
+.content {
+  margin-left: 350px;
+  margin-top: -410px;
 }
