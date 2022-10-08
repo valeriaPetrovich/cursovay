@@ -31,7 +31,7 @@ const Location = () => {
       const location = [...Array(count+1).keys()];
       const url = api2 + "/" + location.join(",");
       let data3 = await fetch(url).then((res) => res.json());
-      console.log(data3)
+     // console.log(data3)
       setLocation(data3);
     }
     Read2();

@@ -2,12 +2,9 @@ import styles from "./Card.module.scss";
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux'
 import useMeals from "../../hoock/useMeals";
-//import useDojo from "../../hoock/useDojo";
 
 const Cards = () => {
   const { fetcheMeals } = useMeals();
-  //const {options} = useDojo();
-  //console.log(options)
   let display;
   if (fetcheMeals) {
     //если ввели имя которое есть в списке api

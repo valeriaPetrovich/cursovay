@@ -2,10 +2,12 @@ import React from "react";
 import useMeals from "../../hoock/useMeals";
 import { useParams } from "react-router-dom";
 import styles from '../../styles/CardDetails.module.scss';
+import useIngredients from "../../hoock/useIngredients";
 
 const CardDetails = () => {
   let { id } = useParams();
   const { fetcheMeals } = useMeals();
+  const {} = useIngredients();
   let display;
   display = fetcheMeals.map((x) => x.map((el) => {
     if (el.idMeal === id) {
