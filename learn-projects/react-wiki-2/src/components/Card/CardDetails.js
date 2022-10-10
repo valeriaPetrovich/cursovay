@@ -2,7 +2,7 @@ import React from "react";
 import useMeals from "../../hoock/useMeals";
 import { useParams } from "react-router-dom";
 import styles from '../../styles/CardDetails.module.scss';
-import TableIngredients from "../Table";
+import Table from 'react-bootstrap/Table';
 
 const CardDetails = () => {
   let { id } = useParams();
@@ -32,9 +32,27 @@ const CardDetails = () => {
                 </span>
               </div>
               <div className="">
-                <span className={styles['curent-text']}>Ingredients: </span>
-                <span className={styles['tex-card']}> {Object.values(el).slice(9,18)}</span>
-                <TableIngredients/>
+
+                <Table className={styles.table}>
+                  <tbody>
+                    <tr>
+                      <th>Ingredient</th>
+                      {Object.values(el).slice(9, 18).map((e) => {
+                        return (
+                          <td>{e}</td>
+                        )
+                      })}
+                    </tr>
+                    <tr>
+                      <th>Grams</th>
+                      {Object.values(el).slice(29, 38).map((e) => {
+                        return (
+                          <td>{e}</td>
+                        )
+                      })}
+                    </tr>
+                  </tbody>
+                </Table>
               </div>
               <div className="">
                 <span className={styles['curent-text']}>
