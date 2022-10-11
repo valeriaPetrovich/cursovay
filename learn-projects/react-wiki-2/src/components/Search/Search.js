@@ -2,7 +2,7 @@ import React from "react";
 import stales from "./Search.module.scss";
 
 
-const Search = ({ setSearch }) => {
+const Search = ({ setSearch, search }) => {
   return (
     <form className="d-flex justify-content-center gap-4 mb-5">
       <input
@@ -13,6 +13,7 @@ const Search = ({ setSearch }) => {
         type="text"
         className={stales.input}
         id="quantity"
+        value={search}
       />
       <button
         onClick={(e) => {

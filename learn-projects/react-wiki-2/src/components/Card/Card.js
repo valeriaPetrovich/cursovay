@@ -1,7 +1,7 @@
 import styles from "./Card.module.scss";
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux'
 import useMeals from "../../hoock/useMeals";
+
 
 const Cards = () => {
   const {fetcheMeals} = useMeals();
@@ -38,8 +38,8 @@ const Cards = () => {
   }
   return <>{display}</>;
 };
-export default connect(
-  state => ({
-    testStore: state
-  }),
-)(Cards);
+export default Cards;
+
+/** display = fetcheMeals.map((x) => x.filter((e) => {
+			return e.strMeals.toLowerCase().includes(search);
+	})); */

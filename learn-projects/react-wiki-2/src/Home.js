@@ -1,21 +1,16 @@
 import Filters from "./components/Filter/Filter";
 import Cards from "./components/Card/Card";
-import React, { useEffect } from "react";
+import React from "react";
 import Pagination from "./components/Pagination/Pagination";
 import Search from "./components/Search/Search";
 import styles from "./components/Card/Card.module.scss";
 import { connect } from 'react-redux'
-import { useCaracters } from "./hoock/useCaracters";
+import useCaracters from "./hoock/useCaracters";
 
 
 
-
-const Home = ({ addCards, cards }) => {
-
-  const { pageNumber, setPageNumber, info, results, status, updateStatus, updateGender, updateSpecies, debonse, search } = useCaracters();
-  useEffect(() => {
-    addCards(results ?? []);
-  }, [results]);
+const Home = () => {
+  const { pageNumber, setPageNumber, info, status, updateStatus, updateGender, updateSpecies, debonse,search } = useCaracters();
   return (
     <div className="App">
       <h1 className={`${styles['impotant-title']} text-center mp-4`}>aymlMenu</h1>
@@ -32,7 +27,7 @@ const Home = ({ addCards, cards }) => {
           />
           <div className={`${styles.content} col-8`}>
             <div className="row ">
-              <Cards page="/" results={results} />
+              <Cards page="/" />
             </div>
           </div>
         </div>
