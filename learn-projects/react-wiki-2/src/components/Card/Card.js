@@ -39,7 +39,3 @@ const Cards = () => {
   return <>{display}</>;
 };
 export default Cards;
-
-/** display = fetcheMeals.map((x) => x.filter((e) => {
-			return e.strMeals.toLowerCase().includes(search);
-	})); */
