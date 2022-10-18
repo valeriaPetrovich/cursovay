@@ -5,9 +5,10 @@ import useMeals from './useMeals';
 
 const useCardInformation = () => {
 	const dispatch = useDispatch();
-	const {fetcheMeals} = useMeals();
-    const inform = useSelector((state) => state.cardInf.values);
-    const changedData = fetcheMeals.map((mas)=>{mas.map((component)=>{
+	const {} = useMeals();
+	const results = useSelector((state) => state.results.values);
+    
+    const changedData = results.map((mas)=>{mas.map((component)=>{
         return {
             number: component.device_serial_number,
             id: component.idMeal,
@@ -17,7 +18,6 @@ const useCardInformation = () => {
         };
 })})
     dispatch(setCaracterInformation(changedData));
-    return { inform };
 };
 
 export default useCardInformation;

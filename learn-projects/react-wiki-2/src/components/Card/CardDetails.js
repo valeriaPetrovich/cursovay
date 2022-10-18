@@ -1,14 +1,16 @@
 import React from "react";
-import useMeals from "../../hoock/useMeals";
+import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import styles from '../../styles/CardDetails.module.scss';
 import Table from 'react-bootstrap/Table';
+import useMeals from "../../hoock/useMeals";
 
 const CardDetails = () => {
   let { id } = useParams();
-  const { fetcheMeals } = useMeals();
+  const {} = useMeals();
+  const results = useSelector((state) => state.results.values);
   let display;
-  display = fetcheMeals.map((x) => x.map((el) => {
+  display = results.map((x) => x.map((el) => {
     if (el.idMeal === id) {
       return (
         <div className="container d-flex justify-content-center">

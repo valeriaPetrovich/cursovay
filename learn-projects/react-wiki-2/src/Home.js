@@ -11,35 +11,35 @@ import SearchTest from "./components/SearchTest";
 const Home = () => {
   const { pageNumber, setPageNumber, info, status, updateStatus, updateGender, updateSpecies } = useCaracters();
 
-return (
-  <div className="App">
-    <h1 className={`${styles['impotant-title']} text-center mp-4`}>aymlMenu</h1>
-    <Search />
-    <SearchTest/>
-    <div className="container ">
-      <div className="row">
-        <Filters
-          pageNumber={pageNumber}
-          status={status}
-          updateStatus={updateStatus}
-          updateGender={updateGender}
-          updateSpecies={updateSpecies}
-          setPageNumber={setPageNumber}
-        />
-        <div className={`${styles.content} col-8`}>
-          <div className="row ">
-            <Cards page="/" />
+  return (
+    <div className="App">
+      <h1 className={`${styles['impotant-title']} text-center mp-4`}>aymlMenu</h1>
+      <Search />
+      <SearchTest />
+      <div className="container ">
+        <div className="row">
+          <Filters
+            pageNumber={pageNumber}
+            status={status}
+            updateStatus={updateStatus}
+            updateGender={updateGender}
+            updateSpecies={updateSpecies}
+            setPageNumber={setPageNumber}
+          />
+          <div className={`${styles.content} col-8`}>
+            <div className="row ">
+              <Cards page="/" />
+            </div>
           </div>
         </div>
       </div>
+      <Pagination
+        info={info}
+        setPageNumber={setPageNumber}
+        pageNumber={pageNumber}
+      />
     </div>
-    <Pagination
-      info={info}
-      setPageNumber={setPageNumber}
-      pageNumber={pageNumber}
-    />
-  </div>
-);
+  );
 
 
 };

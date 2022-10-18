@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
 import axios from "axios";
+import { useDispatch } from 'react-redux';
+import { setResults } from '../store/reducer/resultsSlice';
 
-const useMeals = () => {
-  let [fetcheMeals, setMeals] = useState([]);
-  async function getApi() {
+
+const useMeals = async () => {
+  const dispatch = useDispatch();
     const meals = [];
     let apiCoock = 'https://www.themealdb.com/api/json/v1/1/search.php?f=';
     let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'v', 'w', 'y'];
@@ -14,14 +15,9 @@ const useMeals = () => {
     const res = await Promise.all(promises);
     res.forEach((result) => {
       meals.push(result.data.meals);
-      setMeals(meals)
+      dispatch(setResults(meals));
     });
-  }
-  useEffect(() => {
-    getApi();
-  }, [])
 
-  return { fetcheMeals }
 }
 
 export default useMeals;
