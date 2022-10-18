@@ -8,7 +8,10 @@ const useResults = () => {
 	const results = useSelector((state) => state.results.values);
 	const fetchResults = () => {
 		fetcheMeals.map((e)=>{
-			return	dispatch(setResults(e));
+			e.map((el)=>{
+				return	dispatch(setResults(el));
+			})
+			
 	})
 	};
 
