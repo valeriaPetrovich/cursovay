@@ -1,4 +1,28 @@
-import React from "react";
+import { Pagination as AntdPadination } from 'antd';
+import PropTypes from 'prop-types';
+import styles from './styles.module.scss';
+
+const Pagination = ({ currentPage, setCurrentPage, total }) => {
+	return (
+		<AntdPadination
+			current={currentPage}
+			onChange={setCurrentPage}
+			total={total}
+			className={styles.pagination}
+		/>
+	);
+};
+
+Pagination.propTypes = {
+	currentPage: PropTypes.number,
+	setCurrentPage: PropTypes.func,
+	total: PropTypes.number
+};
+
+export default Pagination;
+
+
+/*import React from "react";
 import ReactPaginate from "react-paginate";
 const Pagination = ({ info, setPageNumber }) => {
   return (
@@ -20,3 +44,4 @@ const Pagination = ({ info, setPageNumber }) => {
 };
 
 export default Pagination;
+*/

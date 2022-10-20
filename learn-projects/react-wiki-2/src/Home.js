@@ -1,6 +1,7 @@
 import Filters from "./components/Filter/Filter";
 import Cards from "./components/Card/Card";
-import React from "react";
+import React, {useState} from "react";
+import { useSelector } from "react-redux";
 import Pagination from "./components/Pagination/Pagination";
 import Search from "./components/Search/Search";
 import styles from "./components/Card/Card.module.scss";
@@ -10,6 +11,12 @@ import SearchTest from "./components/SearchTest";
 
 const Home = () => {
   const { pageNumber, setPageNumber, info, status, updateStatus, updateGender, updateSpecies } = useCaracters();
+  const results = useSelector((state) => state.results.values);
+	const [currentPage, setCurrentPage] = useState(1);
+	const LIMIT = 5;
+	let sliceResults = results.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
+  console.log(sliceResults.length);
+	const total = (results.length / 5) * 10;
 
   return (
     <div className="App">
@@ -33,11 +40,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Pagination
-        info={info}
-        setPageNumber={setPageNumber}
-        pageNumber={pageNumber}
-      />
+      <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} total={total} />
+    
     </div>
   );
 
@@ -46,3 +50,11 @@ const Home = () => {
 
 
 export default Home;
+/**
+ *   <Pagination
+        info={info}
+        setPageNumber={setPageNumber}
+        pageNumber={pageNumber}
+      />
+            <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} total={total} />
+ */
