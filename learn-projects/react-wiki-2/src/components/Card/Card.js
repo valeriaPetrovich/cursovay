@@ -12,13 +12,12 @@ const filter = fetcheMeals.map((e)=>{
 })*/
 
 
-const Cards = () => {
-	const {} = useMeals();
-	const results = useSelector((state) => state.results.values);
-  const LIMIT = 5;
-	let sliceResults = results.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
+const Cards = ({sliceResults}) => {
 
-   let display = results.map((x) => x.map((el) => {
+	const {} = useMeals();
+	//const results = useSelector((state) => state.results.values);
+
+   let display = sliceResults.map((x) => x.map((el) => {
  
       return (
         <Link

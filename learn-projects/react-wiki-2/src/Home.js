@@ -13,10 +13,9 @@ const Home = () => {
   const { pageNumber, setPageNumber, info, status, updateStatus, updateGender, updateSpecies } = useCaracters();
   const results = useSelector((state) => state.results.values);
 	const [currentPage, setCurrentPage] = useState(1);
-	const LIMIT = 5;
+	const LIMIT = 1;
 	let sliceResults = results.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
-  console.log(sliceResults.length);
-	const total = (results.length / 5) * 10;
+	const total = (results.length / 1) * 10;
 
   return (
     <div className="App">
@@ -35,7 +34,7 @@ const Home = () => {
           />
           <div className={`${styles.content} col-8`}>
             <div className="row ">
-              <Cards page="/" />
+              <Cards page="/" sliceResults={sliceResults} />
             </div>
           </div>
         </div>
