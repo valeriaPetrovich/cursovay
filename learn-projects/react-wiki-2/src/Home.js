@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="App">
       <h1 className={`${styles['impotant-title']} text-center mp-4`}>aymlMenu</h1>
-      <Search />
+      <Search getReportingIds={getReportingIds}/>
       <SearchTest />
       <div className="container ">
         <div className="row">
