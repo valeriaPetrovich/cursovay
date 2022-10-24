@@ -15,9 +15,8 @@ const filter = fetcheMeals.map((e)=>{
 const Cards = ({sliceResults}) => {
 
 	const {} = useMeals();
-	//const results = useSelector((state) => state.results.values);
 
-   let display = sliceResults.map((x) => x.map((el) => {
+   let display = sliceResults.map((el) => {
  
       return (
         <Link
@@ -39,7 +38,7 @@ const Cards = ({sliceResults}) => {
           </div>
         </Link>
       );
-    })
+      }
     );
   return <>{display}</>;
 };

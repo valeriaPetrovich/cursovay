@@ -7,15 +7,17 @@ import Search from "./components/Search/Search";
 import styles from "./components/Card/Card.module.scss";
 import useCaracters from "./hoock/useCaracters";
 import SearchTest from "./components/SearchTest";
+import { flatten } from 'lodash';
 
 
 const Home = () => {
   const { pageNumber, setPageNumber, info, status, updateStatus, updateGender, updateSpecies } = useCaracters();
   const results = useSelector((state) => state.results.values);
 	const [currentPage, setCurrentPage] = useState(1);
-	const LIMIT = 1;
-	let sliceResults = results.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
-	const total = (results.length / 1) * 10;
+	const LIMIT = 12;
+  const getReportingIds = flatten(results.map((component) => component));
+	let sliceResults = getReportingIds.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
+	const total = 240
 
   return (
     <div className="App">

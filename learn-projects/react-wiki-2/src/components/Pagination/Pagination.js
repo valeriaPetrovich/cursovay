@@ -1,6 +1,5 @@
 import { Pagination as AntdPadination } from 'antd';
 import PropTypes from 'prop-types';
-import styles from './styles.module.scss';
 
 const Pagination = ({ currentPage, setCurrentPage, total }) => {
 	return (
@@ -8,7 +7,6 @@ const Pagination = ({ currentPage, setCurrentPage, total }) => {
 			current={currentPage}
 			onChange={setCurrentPage}
 			total={total}
-			className={styles.pagination}
 		/>
 	);
 };
