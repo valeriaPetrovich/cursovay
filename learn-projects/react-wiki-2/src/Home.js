@@ -1,38 +1,29 @@
 import Filters from "./components/Filter/Filter";
 import Cards from "./components/Card/Card";
 import React, {useState} from "react";
-import { useSelector } from "react-redux";
 import Pagination from "./components/Pagination/Pagination";
-import Search from "./components/Search/Search";
 import styles from "./components/Card/Card.module.scss";
 import useCaracters from "./hoock/useCaracters";
 import SearchTest from "./components/SearchTest";
-import { flatten } from 'lodash';
+import useFilter from "./hoock/useFilter";
 
 
 const Home = () => {
-  const { pageNumber, setPageNumber, info, status, updateStatus, updateGender, updateSpecies } = useCaracters();
-  const results = useSelector((state) => state.results.values);
+  const { status } = useCaracters();
 	const [currentPage, setCurrentPage] = useState(1);
 	const LIMIT = 12;
-  const getReportingIds = flatten(results.map((component) => component));
-	let sliceResults = getReportingIds.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
+  const {myFilt} = useFilter();
+	let sliceResults = myFilt.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
 	const total = 240
 
   return (
     <div className="App">
       <h1 className={`${styles['impotant-title']} text-center mp-4`}>aymlMenu</h1>
-      <Search getReportingIds={getReportingIds}/>
       <SearchTest />
       <div className="container ">
         <div className="row">
-          <Filters
-            pageNumber={pageNumber}
+        <Filters
             status={status}
-            updateStatus={updateStatus}
-            updateGender={updateGender}
-            updateSpecies={updateSpecies}
-            setPageNumber={setPageNumber}
           />
           <div className={`${styles.content} col-8`}>
             <div className="row ">
@@ -58,4 +49,14 @@ export default Home;
         pageNumber={pageNumber}
       />
             <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} total={total} />
+ */
+/**
+ *      <Filters
+            pageNumber={pageNumber}
+            status={status}
+            updateStatus={updateStatus}
+            updateGender={updateGender}
+            updateSpecies={updateSpecies}
+            setPageNumber={setPageNumber}
+          />
  */

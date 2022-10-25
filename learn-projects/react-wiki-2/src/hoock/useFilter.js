@@ -6,21 +6,13 @@ const useFilter = () => {
   const results = useSelector((state) => state.results.values);
   const getReportingIds = flatten(results.map((component) => component));
   const myFilt = getReportingIds.filter((e) => {
-   return e.strMeal.includes(search);
+   return e.strMeal.toLowerCase().includes(search);
   })
-  console.log(myFilt);
-  return { myFilt } 
+  /*
+  const filtStatus = getReportingIds.filter((e) => {
+    return e.strCategory==='Beef'
+   })*/
+  return { myFilt} 
 }
 
 export default useFilter;
-
-  /*
-const {fetcheMeals} = useMeals();
-const {search} = useCaracters();
-console.log(search)
-    const filterMeals = fetcheMeals.map((v) => {
-      v.filter((e)=>{
-        return e.strMeal === search ;
-      })
-    })
-*/

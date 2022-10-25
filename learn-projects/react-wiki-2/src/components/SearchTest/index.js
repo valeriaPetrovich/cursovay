@@ -3,6 +3,7 @@ import { debounce } from 'lodash';
 import { useDispatch} from 'react-redux';
 import { setSearchSlise } from "../../store/reducer/searchSlice";
 import { useEffect } from "react";
+import stales from './stales.module.scss';
 
 const SearchTest = () => {
   const [searchState, setSearchState] = useState('');
@@ -21,6 +22,7 @@ useEffect(()=>{
         placeholder="Search for Characters "
         type="text"
         id="quantity"
+        className={stales.input}
       />
     </form>
   );

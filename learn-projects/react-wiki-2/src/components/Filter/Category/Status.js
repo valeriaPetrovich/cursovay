@@ -1,8 +1,9 @@
 import React from "react";
 import FilterBTN from "../FilterBTN";
 
-const Status = ({ updateStatus, updatePageNumber }) => {
+const Status = ({ updateStatus }) => {
   let status = ["Beef", "Breakfast", "Chicken", "Dessert", "Goat", "Lamb", "Miscellaneous", "Pasta", "Pork", "Seafood", "Side", "Starter", "Vegan", "Vegetarian"];
+  
   return (
     <div className="accordion-item">
       <h2 className="accordion-header" id="headingOne">

@@ -1,16 +1,7 @@
 import styles from "./Card.module.scss";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
 import useFilter from "../../hoock/useFilter";
 import useMeals from "../../hoock/useMeals";
-/*
-import { useSelector } from "react-redux";
-const search = useSelector((state) => state.search.values);
-const filter = fetcheMeals.map((e)=>{
-  e.filter((el)=>{
-	return el.strMeal.includes(search);
-  })
-})*/
 
 
 const Cards = ({sliceResults}) => {
