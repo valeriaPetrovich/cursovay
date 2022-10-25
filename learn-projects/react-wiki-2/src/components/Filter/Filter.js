@@ -1,20 +1,12 @@
 import React from "react"; //rafse Tab
-import Gender from "../Filter/Category/Gender";
-import Species from "../Filter/Category/Species";
 import Status from "../Filter/Category/Status";
 
 const Filter = ({
-  updatePageNumber,
-  updateStatus,
-  updateGender,
-  updateSpecies,
+  updateStatus
 }) => {
   ///обнуление
   let clear = () => {
-    updateStatus("");
-    updateGender("");
-    updateSpecies("");
-    updatePageNumber(1);
+    updateStatus("")
     window.location.reload(false);
   };
   return (
@@ -29,16 +21,7 @@ const Filter = ({
       </div>
       <div className="accordion" id="accordionExample">
         <Status
-          updatePageNumber={updatePageNumber}
           updateStatus={updateStatus}
-        />
-        <Species
-          updatePageNumber={updatePageNumber}
-          updateSpecies={updateSpecies}
-        />
-        <Gender
-          updatePageNumber={updatePageNumber}
-          updateGender={updateGender}
         />
       </div>
     </div>
