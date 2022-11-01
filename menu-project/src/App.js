@@ -4,7 +4,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CardDetails from "./components/Card/CardDetails";
 import Home from "./Home";
-import Booking from "./pages/Booking";
+import Booking from "./pages/Booking/Booking";
 
 function App() {
   return (
