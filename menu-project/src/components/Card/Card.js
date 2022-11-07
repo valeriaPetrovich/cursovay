@@ -16,7 +16,7 @@ const Cards = ({sliceResults}) => {
           style={{ textDecoration: "none" }}
           to={`${el.idMeal}`}
           key={el.idMeal}
-          className="col-4 mb-4 position-relative text-dark"
+          className="col-4 mb-5 position-relative text-dark"
         >
           <div className={styles.cards}>
             <img alt="" src={el.strMealThumb} className={`${styles.img} img-fluid`} />
@@ -25,7 +25,7 @@ const Cards = ({sliceResults}) => {
             </div>
           </div>
           <div
-            className={`${styles.badge} position-absolute badge bg-light text-dark`}
+            className={`${styles.badge} position-absolute badge`}
           >
             {el.strCategory}{" "}
           </div>

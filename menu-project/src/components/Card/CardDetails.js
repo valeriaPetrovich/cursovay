@@ -61,6 +61,7 @@ const CardDetails = () => {
                   You can follow the link and watch the video: </span>
                 <a href={el.strYoutube} className={styles.area}>
                   {el.strYoutube}
+                  {el.strSource}
                 </a>
               </div>
             </div>

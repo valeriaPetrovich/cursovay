@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Ubuntu' ;
+    src: url(../../../assets/fonts/Ubuntu-Medium.ttf);
+}
+.content{
+height: 494px;
+width: 86%;
+margin-left: 7.5%;
+}
+.title{
+position: absolute;
+top: 239px;
+width: 570px;
+height: 148px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-size: 50px;
+line-height: 74px;
+color: #000000;
+}
+.img{
+position: absolute;
+width: 671px;
+height: 494px;
+left: 642px;
+}
+.button{
+position: absolute;
+width: 305px;
+height: 80.26px;
+background: rgba(155, 210, 65, 0.63);
+border-radius: 18.831px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-size: 29px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+padding-top: 20px;
+top: 469px;
+text-decoration: none;
+&:hover,
+&:focus{
+    color: #FFFFFF; 
+}
+}

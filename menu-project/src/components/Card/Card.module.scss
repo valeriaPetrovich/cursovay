@@ -1,48 +1,33 @@
 .cards {
-  border: 2px solid #d1a954;
-  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.impotant-title {
-  margin: 0 auto;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 145%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #000000;
+  width: 342.29px;
+height: 348px;
+  padding: 16px 22px;
+  
 }
 .text-catd {
-  font-family: "Montserrat";
+  font-family: 'Ubuntu';
   font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 145%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
   color: #000000;
+  
 }
 .badge {
   top: 10px;
-  right: 20px;
-  font-size: 17px;
-  font-family: "Montserrat";
+  right: 85px;
+  font-family: 'Ubuntu';
   font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 145%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
   color: #000000;
+  background: rgba(155, 210, 65, 0.63);
 }
 .img {
-  border-radius: 10px 10px 0 0;
-}
-.content {
-  margin-left: 350px;
-  margin-top: -410px;
+  width: 299px;
+height: 241px;
 }
 .table {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;

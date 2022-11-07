@@ -17,7 +17,6 @@ const useMeals = async () => {
       meals.push(result.data.meals);
       dispatch(setResults(meals));
     });
-
 }
 
 export default useMeals;

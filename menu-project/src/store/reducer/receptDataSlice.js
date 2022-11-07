@@ -5,16 +5,16 @@ const initialState = {
 	values: []
 };
 
-export const statusSlice = createSlice({
+export const receptDataSlise = createSlice({
 	name: 'results',
 	initialState,
 	reducers: {
-		setStatusSlise: (state, action) => {
+		setreceptDataSlise: (state, action) => {
 			state.values = cloneDeep(action.payload);
 		}
 	}
 });
 
-export default statusSlice.reducer;
+export default receptDataSlise.reducer;
 
-export const { setStatusSlise } = statusSlice.actions;
+export const { setreceptDataSlise } = receptDataSlise.actions;

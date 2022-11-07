@@ -16,10 +16,10 @@ useEffect(()=>{
 })
   const handleInput = debounce((e) => setSearchState(e.target.value), 500);
   return (
-    <form className="d-flex justify-content-center gap-4 mb-5">
+    <form className="d-flex justify-content-center gap-4 mb-5 mt-5">
       <input
         onChange={handleInput}
-        placeholder="Search for Characters "
+        placeholder="Search for dishes"
         type="text"
         id="quantity"
         className={stales.input}

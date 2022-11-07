@@ -1,18 +1,17 @@
 import React, {useEffect} from "react";
 import FilterBTN from "../FilterBTN";
-import { useDispatch } from "react-redux";
-import {setStatus} from '../../../store/reducer/statusSlice';
+import { useDispatch} from 'react-redux';
+import { setStatusSlise } from "../../../store/reducer/statusSlice";
 
 const Status = ({ updateStatus }) => {
   let status = ["Beef", "Breakfast", "Chicken", "Dessert", "Goat", "Lamb", "Miscellaneous", "Pasta", "Pork", "Seafood", "Side", "Starter", "Vegan", "Vegetarian"];
   const dispatch = useDispatch();
-  const fetchStatus = () =>{
-    dispatch(setStatus(status));
-  };
-   
-  useEffect(()=>{
-    fetchStatus();
-  })
+  const fetchStatus = () => {
+	dispatch(setStatusSlise(status));
+};
+useEffect(()=>{
+  fetchStatus();
+})
 
   return (
     <div className="accordion-item">
