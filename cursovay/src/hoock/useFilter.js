@@ -4,6 +4,8 @@ import {data} from '../constant/const';
 
 const useFilter = () => {
   const search = useSelector((state) => state.search.values);
+ const api = './cursovay/asd/content.json'
+ console.log(api);
   //const status = useSelector((state) => state.status.values);
   //const results = useSelector((state) => state.results.values);
   //const getReportingIds = flatten(results.map((component) => component)); 
