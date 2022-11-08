@@ -10,7 +10,7 @@ const useMeals = async () => {
     const url = 'localhost:8080/api/json/v1/1/search.php'
 
     axios.get(url).then(response => {
-      //console.log(response)
+      console.log(response)
   })
 
 
