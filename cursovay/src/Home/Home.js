@@ -7,7 +7,9 @@ import styles from './styles.module.scss';
 import SearchTest from "../components/SearchTest";
 import useFilter from "../hoock/useFilter";
 import Header from "../components/Header";
-//import vetka from '../../src/assets/Group 14.svg'
+import vetka from '../../src/assets/Group 13.png'
+import vetkaBottom from '../../src/assets/Group 14.png'
+import Filters from "../components/Filters";
 
 
 const Home = () => {
@@ -20,16 +22,21 @@ const Home = () => {
 
   return (
     <div className="App">
+      <img src={vetka} alt='' className={styles.vetka1}/>
     <Header/>
       <div className="container ">
       <SearchTest />
+      <Filters/>
           <div className={`${styles.content} col-8 mt-5`}>
             <div className="row g-5">
               <Cards page="/" sliceResults={sliceResults} />
             </div>
           </div>
+          <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} total={total} />
         </div>
-      <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} total={total} />
+       
+        <img src={vetkaBottom} alt='' className={styles.vetka2}/>
+      
     </div>
   );
 

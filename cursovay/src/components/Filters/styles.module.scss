@@ -1,0 +1,29 @@
+.buttonContainer{
+    padding: 24px 89px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 116.15px;
+    z-index: 100;
+}
+
+.categories{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 24px;
+color: #000000;
+}
+.accordion{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+border-radius: 20px;
+border: 1px solid rgba(155, 210, 65, 0.63);
+justify-content: center;
+color: #000000;
+padding: 8px 60px;
+}

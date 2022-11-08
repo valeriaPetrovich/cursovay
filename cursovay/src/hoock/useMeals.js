@@ -7,6 +7,12 @@ const useMeals = async () => {
   const dispatch = useDispatch();
     const meals = [];
     let apiCoock = 'https://www.themealdb.com/api/json/v1/1/search.php?f=';
+    const url = 'localhost:8080/api/json/v1/1/search.php'
+
+    axios.get(url).then(response => {
+      //console.log(response)
+  })
+
 
     let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'v', 'w', 'y'];
     const promises = letters.map((letter) => {
