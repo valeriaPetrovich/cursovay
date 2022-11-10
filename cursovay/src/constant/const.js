@@ -1,4 +1,4 @@
-export const data = [[
+export const data1 = [[
     {
         "idMeal": "52768",
         "strMeal": "Apple Frangipan Tart",

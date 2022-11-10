@@ -3,7 +3,6 @@ import resultsSlice from './reducer/resultsSlice';
 import searchSlice from './reducer/searchSlice';
 import cardInformationSlice from './reducer/cardInformationSlice';
 import statusSlice from './reducer/statusSlice';
-import bookingSlice from './reducer/bookingSlice';
 import receptDataSlice from './reducer/receptDataSlice';
 
 const rootReducer = combineReducers({
@@ -11,7 +10,6 @@ const rootReducer = combineReducers({
 	search: searchSlice,
 	cardInf: cardInformationSlice,
 	status: statusSlice,
-	booking: bookingSlice,
 	receptData: receptDataSlice
 });
 

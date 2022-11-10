@@ -1,16 +1,14 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import styles from '../../styles/CardDetails.module.scss';
 import Table from 'react-bootstrap/Table';
-import useMeals from "../../hoock/useMeals";
+import useFilter from "../../hoock/useFilter";
 
 const CardDetails = () => {
   let { id } = useParams();
-  const {} = useMeals();
-  const results = useSelector((state) => state.results.values);
+  const {getdata} = useFilter();
   let display;
-  display = results.map((x) => x.map((el) => {
+  display = getdata.map((el) =>  {
     if (el.idMeal === id) {
       return (
         <div className="container d-flex justify-content-center">
@@ -69,8 +67,7 @@ const CardDetails = () => {
         </div>
       );
     }
-  })
-  );
+  });
   return <>{display}</>;
 };
 

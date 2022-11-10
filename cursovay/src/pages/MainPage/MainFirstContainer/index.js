@@ -7,10 +7,10 @@ const MainFirstContainer = () => {
   return (
 <div className="container" id='about'>
     <div className={`${styles['content']} mt-5`}>
-   <h2 className={`${styles['title']}`}>Delicious is what you deserve!</h2> 
+   <h2 className={`${styles['title']}`}>Вкусно то, что вы заслуживаете!</h2> 
    <img src={imgMaim} atl="imgMain" className={styles.img}/>
    <NavLink to="/booking" className={styles.button}>
-   Reserve a table
+   Забронировать столик
 </NavLink>
     </div>
 

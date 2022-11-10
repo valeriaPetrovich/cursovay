@@ -8,21 +8,21 @@ function Menu() {
         
           <li className={style["menu-items"]}>
             <a href="#about" >
-          About us
+          О нас
             </a>
           </li>
         
        
           <li className={style["menu-items"]}>
           <a href="#menu" >
-            Menu
+            Меню
             </a>
           </li>
       
       
           <li className={style["menu-items"]}>
           <a href="#gallery" >
-            Gallery
+            Галерея
             </a>
           </li>
       

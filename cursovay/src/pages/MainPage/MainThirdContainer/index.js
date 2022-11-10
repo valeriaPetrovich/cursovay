@@ -8,7 +8,7 @@ import img4 from '../../../assets/image 1.png'
 const MainThirdContainer = () => {
   return (
     <div className={`${styles['content']} mt-5`} id='gallery'>
-        <h2 className={`${styles['title']} text-center `} >Gallery </h2>
+        <h2 className={`${styles['title']} text-center `} >Галерея </h2>
         <div className={styles.images}>
         <img src={img3} alt='img3' className={styles.img1}/>
         <img src={img2} alt='img2' className={styles.img2}/>
