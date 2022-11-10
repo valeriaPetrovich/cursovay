@@ -1,14 +1,12 @@
 import { useSelector } from "react-redux";
 import { flatten } from 'lodash';
 import { data } from "../constant/dataRu";
-//import { data } from "../constant/const";
 
 const useFilter = () => {
   const search = useSelector((state) => state.search.values);
   const getdata = flatten(data.map((component) => component));
-
   const myFilt = getdata.filter((e) => {
-    return e.strMeal.toLowerCase()                                          //////////.strMeal.toLowerCase().includes(search);
+    return e.strMeal.toLowerCase().includes(search);                                      //////////.strMeal.toLowerCase().includes(search);
   })
 
   const filterStatus = (categore) => {
