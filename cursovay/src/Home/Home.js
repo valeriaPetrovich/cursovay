@@ -25,7 +25,7 @@ const Home = () => {
       <SearchTest />
       <Filters/>
           <div className={`${styles.content} col-8 mt-5`}>
-            <div className="row g-5">
+            <div className="row">
               <Cards page="/" sliceResults={sliceResults} />
             </div>
           </div>
