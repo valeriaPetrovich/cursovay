@@ -1,14 +1,13 @@
 import React from "react";
+import styles from './styles.module.scss';
+import useFilter from "../../hoock/useFilter";
 
-const FilterBottom = ({ input, task, updatePageNumber, index, name }) => {
+const FilterBottom = ({ input, task, index, name }) => {
+  const {filterStatus} = useFilter();
   return (
     <div>
       <style>
         {`
-          .x:checked + label {
-            background-color: #0b5ed7;
-            color: white;
-          }
           input[type="radio"] {
             display: none;
           }
@@ -23,10 +22,10 @@ const FilterBottom = ({ input, task, updatePageNumber, index, name }) => {
           id={`${name}-${index}`}
         />
         <label
-          onClick={(x) => {
-            task(input);
+          onClick={() => {
+            filterStatus(input);
           }}
-          className="btn btn-outline-primary"
+         className={`${styles.bt} btn btn-outline-primary`}
           htmlFor={`${name}-${index}`}
         >
           {input}

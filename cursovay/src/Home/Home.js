@@ -1,9 +1,7 @@
-//import Filters from "../components/Filter/Filter";
 import Cards from "../components/Card/Card";
 import React, {useState} from "react";
 import Pagination from "../components/Pagination/Pagination";
 import styles from './styles.module.scss';
-//import useCaracters from "../hoock/useCaracters";
 import SearchTest from "../components/SearchTest";
 import useFilter from "../hoock/useFilter";
 import Header from "../components/Header";
@@ -13,7 +11,6 @@ import Filters from "../components/Filters";
 
 
 const Home = () => {
-  //const { status } = useCaracters();
 	const [currentPage, setCurrentPage] = useState(1);
 	const LIMIT = 12;
   const {myFilt} = useFilter();

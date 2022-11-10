@@ -8,6 +8,7 @@ const Pagination = ({ currentPage, setCurrentPage, total }) => {
 			onChange={setCurrentPage}
 			total={total}
 			className={styles.pagination}
+			showSizeChanger={false}
 		/>
 	);
 };

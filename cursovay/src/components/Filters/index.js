@@ -1,12 +1,25 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from './styles.module.scss';
 import FilterBottom from "./FilterBottom";
+import { useDispatch } from "react-redux";
+import {setMainsSlise, setDesertSlise, setVeganSlise } from "../../store/reducer/statusSlice";
 
 const Filters = () => {
-  //let mainsItems = [  "Goat", "Lamb", "Miscellaneous", "Pasta",  "Seafood", "Side", "Starter", "Vegan", "Vegetarian"];
-  const mainsItems = ["Beef", "Breakfast", "Chicken","Pork"]
+  const mainsItems = ["Beef", "Breakfast", "Chicken","Pork","Goat", "Lamb", "Miscellaneous", "Pasta",  "Seafood", "Side", "Starter"]
   const dessertItems = ["Dessert"];
   const veganItems = ["Vegan", "Vegetarian"];
+  const dispatch = useDispatch();
+
+  const fetchStatus = () =>{
+    dispatch(setMainsSlise(mainsItems));
+    dispatch(setDesertSlise(dessertItems));
+    dispatch( setVeganSlise(veganItems));
+  }
+
+  useEffect(()=>{
+    fetchStatus();
+  })
+
   return (
 <div className={styles.buttonContainer}>
     <h2 className={styles.categories}>Categories</h2>
@@ -17,7 +30,7 @@ const Filters = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseOne"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls="collapseOne"
         >
           Mains
@@ -25,11 +38,11 @@ const Filters = () => {
       </h2>
       <div
         id="collapseOne"
-        className="accordion-collapse collapse show"
+        className="accordion-collapse collapse"
         aria-labelledby="headingOne"
         data-bs-parent="#accordionExample"
       >
-        <div className={styles['buttons-container']}>
+        <div className={`${styles.buttons} accordion-body d-flex flex-wrap gap-3`}> 
     
           {mainsItems.map((item, index) => (
             <FilterBottom
@@ -52,7 +65,7 @@ const Filters = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapsTwo"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls="collapsTwo"
         >
           Dessert
@@ -60,11 +73,11 @@ const Filters = () => {
       </h2>
       <div
         id="collapsTwo"
-        className="accordion-collapse collapse show"
+        className="accordion-collapse collapse"
         aria-labelledby="headingOne"
         data-bs-parent="#accordionExample"
       >
-        <div className={styles['buttons-container']}>
+        <div className={`${styles.buttons} accordion-body d-flex flex-wrap gap-3`}>
     
           {dessertItems.map((item, index) => (
             <FilterBottom
@@ -87,7 +100,7 @@ const Filters = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapsTree"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls="collapsTree"
         >
           Green Menu
@@ -95,11 +108,11 @@ const Filters = () => {
       </h2>
       <div
         id="collapsTree"
-        className="accordion-collapse collapse show"
+        className="accordion-collapse collapse"
         aria-labelledby="headingOne"
         data-bs-parent="#accordionExample"
       >
-        <div className={styles['buttons-container']}>
+        <div className={`${styles.buttons} accordion-body d-flex flex-wrap gap-3`}>
     
           {veganItems.map((item, index) => (
             <FilterBottom

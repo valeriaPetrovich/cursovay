@@ -16,7 +16,7 @@ const Cards = ({sliceResults}) => {
           style={{ textDecoration: "none" }}
           to={`${el.idMeal}`}
           key={el.idMeal}
-          className="col-4 mb-5 position-relative text-dark"
+          className={`${styles.cardsConteiner} col-4 mb-5 position-relative text-dark`}
         >
           <div className={styles.cards}>
             <img alt="" src={el.strMealThumb} className={`${styles.img} img-fluid`} />
