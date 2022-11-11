@@ -4,10 +4,10 @@
 
 
 const useMeals = async () => {
-    const url = 'http://localhost:8080/api/json/v1/1/search.php'
+    const url = 'http://localhost:8000/api/json/v1/1/search.php'
 
     const data = fetch(url).then((blob) => blob.json())
-    return {data}
+    console.log(data);
 }
 
 export default useMeals;

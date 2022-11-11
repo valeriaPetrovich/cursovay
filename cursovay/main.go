@@ -4,12 +4,15 @@ import (
 	`encoding/json`
 	`log`
 	`os`
+	`github.com/gin-contrib/cors`
 
 	`github.com/gin-gonic/gin`
 )
 
 func main() {
 	r := gin.Default()
+	config := cors.DefaultConfig()
+	config.AllowAllOrigins = true
 
 	r.GET("/api/json/v1/1/search.php", func(c *gin.Context) {
 		file, err := os.ReadFile("content.json")
@@ -22,10 +25,13 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-
+		c.Header("Access-Control-Allow-Origin", "*")
+		c.Header("Access-Control-Allow-Headers", "access-control-allow-origin, access-control-allow-headers")
 		c.JSON(200, meals)
 	})
-	r.Run()
+
+	r.Use(cors.New(config))
+	r.Run(":8000")
 }
 
 type meal struct {

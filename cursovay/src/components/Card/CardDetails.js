@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import styles from '../../styles/CardDetails.module.scss';
 import Table from 'react-bootstrap/Table';
 import useFilter from "../../hoock/useFilter";
+import Header from '../../components/Header';
+import SearchTest from '../../components/SearchTest';
 
 const CardDetails = () => {
   let { id } = useParams();
@@ -11,7 +13,10 @@ const CardDetails = () => {
   display = getdata.map((el) =>  {
     if (el.idMeal === id) {
       return (
-        <div className="container d-flex justify-content-center">
+        <div className={styles.contentDetalic}>
+          <Header/>
+ <div className="container d-flex justify-content-center">
+<SearchTest/>
           <div className="d-flex flex-column gap-3">
             <h1 className={styles['title-card']}>{el.strMeal}</h1>
             <img src={el.strMealThumb} alt="" className={styles.imgCard} />
@@ -65,6 +70,8 @@ const CardDetails = () => {
             </div>
           </div>
         </div>
+        </div>
+       
       );
     }
   });
