@@ -19,13 +19,13 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={4000}>
       <div>
         <img src={bestMeals} alt='bestMeals' className={styles.imgSlider}/>
-      <NavLink to='/main' className={styles.open}>Open menu</NavLink>
+      <NavLink to='/main' className={styles.open}>Открыть меню</NavLink>
         </div>
       </Carousel.Item>
       <Carousel.Item interval={4000}>
       <div>
         <img src={bestMeals} alt='bestMeals' className={styles.imgSlider}/>
-      <NavLink to='/main' className={styles.open}>Open menu</NavLink>
+      <NavLink to='/main' className={styles.open}>Открыть меню</NavLink>
         </div>
       </Carousel.Item>
     </Carousel>

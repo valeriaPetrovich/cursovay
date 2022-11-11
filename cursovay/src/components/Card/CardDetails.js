@@ -1,10 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import styles from '../../styles/CardDetails.module.scss';
+import styles from './CardDetails.module.scss';
 import Table from 'react-bootstrap/Table';
 import useFilter from "../../hoock/useFilter";
 import Header from '../../components/Header';
 import SearchTest from '../../components/SearchTest';
+import vetka from '../../assets/Group 13.png'
+import vetkaBottom from '../../assets/Group 14.png'
+
 
 const CardDetails = () => {
   let { id } = useParams();
@@ -14,12 +17,16 @@ const CardDetails = () => {
     if (el.idMeal === id) {
       return (
         <div className={styles.contentDetalic}>
+          <img src={vetka} alt='' className={styles.vetka1}/>
           <Header/>
  <div className="container d-flex justify-content-center">
 <SearchTest/>
-          <div className="d-flex flex-column gap-3">
-            <h1 className={styles['title-card']}>{el.strMeal}</h1>
+          <div className={`${styles['card-constainer']} d-flex flex-column gap-5`}>
+            <h1 className={styles['title-card']}>{el.strMeal}</h1> 
+            <div className={styles['image.container']}>
             <img src={el.strMealThumb} alt="" className={styles.imgCard} />
+            </div>
+           
 
             <div className={styles['card-category']}>{el.strCategory}</div>
             <div className="content">
@@ -70,6 +77,7 @@ const CardDetails = () => {
             </div>
           </div>
         </div>
+        <img src={vetkaBottom} alt='' className={styles.vetka2}/>
         </div>
        
       );
