@@ -19,7 +19,7 @@ useEffect(()=>{
     <form className="d-flex justify-content-center gap-4 mb-5 mt-5">
       <input
         onChange={handleInput}
-        placeholder="Search for dishes"
+        placeholder="Поиск"
         type="text"
         id="quantity"
         className={stales.input}

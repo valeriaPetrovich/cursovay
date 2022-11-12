@@ -1,14 +1,107 @@
-.card-constainer{
-  margin-top: 18%;
+body{
+  background: #F7FAF0;
 }
-.vetka1{
+.main-content{
+  width: 70%;
+  margin: 0 auto;
+  z-index: 1000;
+}
+.card-constainer {
+  margin-top: 13%;
+  z-index: 5;
+}
+.vetka1 {
   position: absolute;
   margin-left: 0%;
-} 
-.vetka2{
+}
+.vetka2 {
   position: absolute;
   margin-left: 70%;
   margin-top: -45%;
+}
+.title-ingridient {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+}
+.headerContent{
+  display: inline;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 78.13px;
+}
+.footerContent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  margin-top: 74px;
+}
+.receptText {
+  border-left: 3px solid #9bd241a1;
+  border-bottom: 3px solid #9bd241a1;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  color: #000000;
+  width: 639px;
+}
+.typeContent{
+  display: inline;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 69px;
+}
+.type{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+color: rgba(155, 210, 65, 0.63);
+}
+.typetext{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+
+.linkContent {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #000000;
+  &:hover {
+    color: #9bd241;
+  }
+  img{
+    margin-top: 32.21px;
+    margin-left: 46%;
+  }
 }
 
 .title-card {
@@ -17,91 +110,53 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 37px;
-  text-align: center;
   text-transform: uppercase;
   color: #000000;
+  margin-left: 0px;
 }
-.image.container{
+.image.container {
   border-radius: 6.91108px;
-  border: 1px solid #9BD241;
-padding: 12.42px 12.42px;
-
+  border: 1px solid #9bd241;
+  padding: 12.42px 12.42px;
 }
 
 .imgCard {
   width: 417.43px;
-height: 336.23px;
+  height: 336.23px;
   /*width: 30%;
   height: 30%;*/
   border-radius: 6.91108px;
 }
-.card-category {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px;
-  gap: 10px;
-  width: 10%;
-  height: 5%;
-  margin: 0 auto;
-  background: #d1a954;
-  border-radius: 3px;
-  text-decoration: none;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 135%;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.area {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 26px;
-  line-height: 135%;
-  color: #d1a954;
-}
-.curent-text {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 26px;
-  line-height: 145%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #000000;
-}
-.tex-card {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 135%;
-  color: #616161;
-}
-.table {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  text-align: left;
-  border-collapse: separate;
-  border-spacing: 5px;
-  background: #ECE9E0;
-  color: #656665;
-  border: 16px solid #ECE9E0;
-  border-radius: 20px;
-  }
-  th {
-  font-size: 18px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  text-align: center;
-  }
-  td {
-  background: #F5D7BF;
-  text-align: center;
-  }
 
+.table {
+  margin-top: 44px;
+}
+.topTable{
+  background-color: rgba(155, 210, 65, 0.63);
+  border-width: 1px 0px 0px 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  height: 62px;
+}
+tr + tr {
+  height: 41px;
+  border-radius: 20px;
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #000000;
+background: rgba(255, 255, 255, 0.002);
+border-width: 1px 0px 0px 1px;
+border-style: solid;
+border-color: #FFFDFD;
+ text-align: center;
+}

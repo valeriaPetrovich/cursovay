@@ -5,9 +5,9 @@ import { useDispatch } from "react-redux";
 import {setMainsSlise, setDesertSlise, setVeganSlise } from "../../store/reducer/statusSlice";
 
 const Filters = () => {
-  const mainsItems = ["Beef", "Breakfast", "Chicken","Pork","Goat", "Lamb", "Miscellaneous", "Pasta",  "Seafood", "Side", "Starter"]
-  const dessertItems = ["Dessert"];
-  const veganItems = ["Vegan", "Vegetarian"];
+  const mainsItems = ["Говядина", "Завтрак", "Курица", "Свинина", "Коза", "Баранина", "Разное", "Паста", "Морепродукты", "Гарнир", "Закуска"]
+  const dessertItems = ["Десерт"];
+  const veganItems = ["Веганский", "Вегетрианский"];
   const dispatch = useDispatch();
 
   const fetchStatus = () =>{
@@ -22,7 +22,7 @@ const Filters = () => {
 
   return (
 <div className={styles.buttonContainer}>
-    <h2 className={styles.categories}>Categories</h2>
+    <h2 className={styles.categories}>Категории</h2>
     <div className="accordion-item">
       <h2 className="accordion-header" id="headingOne">
         <button
@@ -33,7 +33,7 @@ const Filters = () => {
           aria-expanded="false"
           aria-controls="collapseOne"
         >
-          Mains
+          Основное 
         </button>
       </h2>
       <div
@@ -68,7 +68,7 @@ const Filters = () => {
           aria-expanded="false"
           aria-controls="collapsTwo"
         >
-          Dessert
+          Десерт
         </button>
       </h2>
       <div
@@ -103,7 +103,7 @@ const Filters = () => {
           aria-expanded="false"
           aria-controls="collapsTree"
         >
-          Green Menu
+         Вегетреанское
         </button>
       </h2>
       <div
