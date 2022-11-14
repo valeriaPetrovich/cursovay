@@ -6,9 +6,11 @@
 const useMeals = async () => {
     const url = 'http://localhost:8000/api/json/v1/1/search.php'
 
-    const data = fetch(url).then((blob) => blob.json())
-    console.log(data
-      );
+    /*const data = await fetch(url);
+    console.log(data.json());*/
+    const response = await fetch(url);
+    const movies = await response.json();
+    console.log(movies);
 }
 
 export default useMeals;
