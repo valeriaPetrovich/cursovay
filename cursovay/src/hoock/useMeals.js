@@ -1,16 +1,19 @@
 //import axios from "axios";
-//import { useDispatch } from 'react-redux';
-//import { setResults } from '../store/reducer/resultsSlice';
+import { useDispatch } from 'react-redux';
+import { setResults } from '../store/reducer/resultsSlice';
 
 
 const useMeals = async () => {
-    const url = 'http://localhost:8000/api/json/v1/1/search.php'
+  const url = 'http://localhost:8000/api/json/v1/1/search.php'
+  const dispatch = useDispatch();
+  const response = await fetch(url);
+  const movies = await response.json();
 
-    /*const data = await fetch(url);
-    console.log(data.json());*/
-    const response = await fetch(url);
-    const movies = await response.json();
-    console.log(movies);
+  const fetchResults = () =>{
+    dispatch(setResults(movies));
+  }
+ 
+  return{fetchResults};
 }
 
 export default useMeals;

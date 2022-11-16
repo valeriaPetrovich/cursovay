@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { QrReader } from 'react-qr-reader';
 
-const Test = (props) => {
+const Test = () => {
   const [data, setData] = useState('No result');
 
   return (
-    <>
+    <div>
       <QrReader
         onResult={(result, error) => {
           if (!!result) {
@@ -19,7 +19,7 @@ const Test = (props) => {
         style={{ width: '100%' }}
       />
       <p>{data}</p>
-    </>
+    </div>
   );
 };
 

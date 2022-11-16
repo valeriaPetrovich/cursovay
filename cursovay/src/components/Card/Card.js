@@ -1,13 +1,14 @@
 import styles from "./Card.module.scss";
 import { Link } from "react-router-dom";
 import useFilter from "../../hoock/useFilter";
-import useMeals from "../../hoock/useMeals";
+//import useMeals from "../../hoock/useMeals";
 
 
 const Cards = ({sliceResults}) => {
 
-	const {} = useMeals();
+	//const {} = useMeals();
   const {} = useFilter();
+
 
    let display = sliceResults.map((el) => {
  
