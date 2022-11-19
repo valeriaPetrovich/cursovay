@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { QrReader } from 'react-qr-reader';
 
-const Test = () => {
+const Scan = () => {
   const [data, setData] = useState('No result');
 
   return (
@@ -23,4 +23,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Scan;

@@ -32,8 +32,14 @@ const CardDetails = () => {
                 </div>
                 <div className="content">
                   <div className={styles.typeContent}>
+                    <div className={styles.typeCatigories}>
                     <p className={styles.type}>Тип Блюда</p>
-                    <p className={styles.typetext}>{el.strCategory}</p> 
+                    <p className={styles.typetext}>{el.strCategory}</p>
+                    </div>
+                    <div className={styles.typeCatigories}>   
+                    <p className={styles.type}>Страна Происхождения</p>
+                    <p className={styles.typetext}>{el.strArea}</p> </div>
+                 
                   </div>
                 </div>
                 </div>
