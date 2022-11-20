@@ -49,6 +49,15 @@ export const data = [[
         "strMeasure18": null,
         "strMeasure19": null,
         "strMeasure20": null,
+        "barcode1":'',
+        'barcode2':'4870004200555',
+        'barcode3':'',
+        'barcode4':'',
+        'barcode5':'',
+        'barcode6':'',
+        'barcode7':'',
+        'barcode8':'',
+        'barcode9':'',
         "strSource": null,
         "strImageSource": null,
         "strCreativeCommonsConfirmed": null,
@@ -401,6 +410,7 @@ export const data = [[
         "strTags": "Пирог, Выпечка, Алкоголь",
 
         "strYoutube": "https://www.youtube.com/watch?v=1ahpSTf_Pvk ",
+        'barcode5':'4870004200555',
 
         "strIngredient1": "обычная мука",
 
@@ -511,6 +521,7 @@ export const data = [[
         "strTags": "Пудинг, Поздний завтрак",
 
         "strYoutube": "https://www.youtube.com/watch?v=Vz5W1-BmOE4 ",
+        'barcode1':'4870004200555',
 
         "strIngredient1": "сливочное масло",
 
@@ -4359,6 +4370,7 @@ export const data = [[
         "strTags": "Закуска, Торт",
 
         "strYoutube": "https://www.youtube.com/watch?v=OaqvGvEiwzU ",
+        'barcode1':'3161911393210',
 
         "strIngredient1": "соленое сливочное масло",
 
@@ -6007,6 +6019,7 @@ export const data = [[
         "strTags": "Шоколад, Десерт, Закуска",
 
         "strYoutube": "https://www.youtube.com/watch?v=Pi89PqsAaAg ",
+        'barcode3':'3161911393210',
 
         "strIngredient1": "Темный шоколад",
 
@@ -11525,6 +11538,7 @@ export const data = [[
         "strIngredient3": "Соль",
 
         "strIngredient4": "Несоленое сливочное масло",
+        'barcode3':'4870004200555',
 
         "strIngredient5": "Оливковое масло",
 
@@ -23840,6 +23854,7 @@ export const data = [[
         "strTags": "Пудинг, Десерт, Торт, Молочные продукты",
 
         "strYoutube": "https://www.youtube.com/watch?v=hKq6RbxJHBo ",
+        'barcode7':'4870004200555',
 
         "strIngredient1": "Промежуточные даты",
 
@@ -24170,6 +24185,7 @@ export const data = [[
         "strTags": "Рыба",
 
         "strYoutube": "https://www.youtube.com/watch?v=V2PMvBv52IE ",
+        'barcode1':'4870004200555',
 
         "strIngredient1": "сливочное масло",
 
@@ -26260,6 +26276,7 @@ export const data = [[
         "strTags": "Булочка,Поздний завтрак",
 
         "strYoutube": "https://www.youtube.com/watch ?v=Woiiet4vQ58",
+        'barcode9':'4870004200555',
 
         "strIngredient1": "Яйца",
 
@@ -30002,6 +30019,7 @@ export const data = [[
         "strTags": "Веганский,Паста",
 
         "strYoutube": "https://www.youtube.com/watch?v=VU8cXvlGbvc ",
+        'barcode8':'4820239241106',
 
         "strIngredient1": "зеленая красная чечевица",
 
@@ -30662,6 +30680,7 @@ export const data = [[
         "strTags": "Алкоголик",
 
         "strYoutube": "",
+        'barcode8':'4820239241106',
 
         "strIngredient1": "Картофель",
 

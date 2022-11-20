@@ -37,7 +37,6 @@ const Home = () => {
         </NavLink>
         
         <SearchTest />
-       
         <Filters />
         <div className={`${styles.content} col-8 mt-5`}>
           <div className="row">

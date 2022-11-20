@@ -14,6 +14,7 @@ function App() {
         <Route path="/main" element={<Home />} />
         <Route path="/scan" element={<Scan />} />
         <Route path="/main/:id" element={<CardDetails />} />
+        <Route path="/scan/:id" element={<CardDetails />} />
         <Route path="/episodes/:id" element={<CardDetails />} />
         <Route path="/location/:id" element={<CardDetails />} />
         <Route path="/" element={<MainPage />} />
