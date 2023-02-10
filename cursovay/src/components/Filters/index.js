@@ -1,14 +1,16 @@
 import React, {useEffect} from "react";
 import styles from './styles.module.scss';
-import FilterBottom from "./FilterBottom";
 import { useDispatch } from "react-redux";
+import Dropdown from 'react-bootstrap/Dropdown';
 import {setMainsSlise, setDesertSlise, setVeganSlise } from "../../store/reducer/statusSlice";
+import useFilter from "../../hoock/useFilter";
 
 const Filters = () => {
   const mainsItems = ["Говядина", "Завтрак", "Курица", "Свинина", "Коза", "Баранина", "Разное", "Паста", "Морепродукты", "Гарнир", "Закуска"]
   const dessertItems = ["Десерт"];
   const veganItems = ["Веганский", "Вегетрианский"];
   const dispatch = useDispatch();
+  const {filterStatus} = useFilter();
 
   const fetchStatus = () =>{
     dispatch(setMainsSlise(mainsItems));
@@ -23,7 +25,58 @@ const Filters = () => {
   return (
 <div className={styles.buttonContainer}>
     <h2 className={styles.categories}>Категории</h2>
-    <div className="accordion-item">
+    <Dropdown bsPrefix={styles.dropdown}>
+      <Dropdown.Toggle variant="success" id="dropdown-basic" className={styles['dropdown-button']}>
+      Основное 
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu className={styles['custom-dropdown']}>
+          {mainsItems.map((item, index) => (
+          <Dropdown.Item key={index} className={styles['dropdown-items']}  onClick={() => {
+            filterStatus(item);
+          }}>
+            {item}
+            </Dropdown.Item>
+          ))}
+      </Dropdown.Menu>
+    </Dropdown>
+
+
+    <Dropdown bsPrefix={styles.dropdown}>
+      <Dropdown.Toggle variant="success" id="dropdown-basic" className={styles['dropdown-button']}>
+      Десерт
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu className={styles['custom-dropdown']}>
+      {dessertItems.map((item, index) => (
+          <Dropdown.Item key={index} className={styles['dropdown-items']}>
+            {item}
+            </Dropdown.Item>
+          ))}
+      </Dropdown.Menu>
+    </Dropdown>
+
+
+    <Dropdown bsPrefix={styles.dropdown}>
+      <Dropdown.Toggle variant="success" id="dropdown-basic" className={styles['dropdown-button']}>
+      Вегетреанское 
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu className={styles['custom-dropdown']}>
+      {veganItems.map((item, index) => (
+          <Dropdown.Item key={index} className={styles['dropdown-items']}>
+            {item}
+            </Dropdown.Item>
+          ))}
+      </Dropdown.Menu>
+    </Dropdown>
+    </div>
+  );
+};
+
+export default Filters;
+/**
+ *     <div className="accordion-item">
       <h2 className="accordion-header" id="headingOne">
         <button
           className={`${styles.accordion} accordion-button`}
@@ -127,60 +180,4 @@ const Filters = () => {
         </div>
       </div>
     </div>
-    
-    </div>
-  );
-};
-
-export default Filters;
-/**
- * <FilterBottom
-              key={index}
-              index={index}
-              name="status"
-              task={updateStatus}
-              input={item}
-
-            />
-
-             <div className="accordion-body d-flex flex-wrap gap-3">
-          {status.map((item, index) => (
-           <div> 
-            <button>Mains</button>
-            <button>Dessert</button>
-            <button>Green Menu</button>
-            </div>
  */
-
-
-
-            /**
-             *     <div className="accordion-item">
-      <h2 className="accordion-header" id="headingOne">
-        <button
-          className="accordion-button"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseOne"
-          aria-expanded="true"
-          aria-controls="collapseOne"
-        >
-          Category
-        </button>
-      </h2>
-      <div
-        id="collapseOne"
-        className="accordion-collapse collapse show"
-        aria-labelledby="headingOne"
-        data-bs-parent="#accordionExample"
-      >
-        <div className={styles['buttons-container']}>
-           <div> 
-            <button >Mains</button>
-            <button >Dessert</button>
-            <button >Green Menu</button>
-            </div>
-        </div>
-      </div>
-    </div>
-             */
