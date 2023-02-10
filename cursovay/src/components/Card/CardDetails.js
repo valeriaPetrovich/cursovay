@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import styles from './CardDetails.module.scss';
 import Table from 'react-bootstrap/Table';
 import useFilter from "../../hoock/useFilter";
@@ -10,6 +10,7 @@ import vetkaBottom from '../../assets/Group 14.png';
 import icon from '../../assets/bx_food-menu.svg';
 import iconRecept from '../../assets/Vector.svg';
 import youtubeIcon from '../../assets/Vector (1).svg'
+import vector from '../../assets/Vector 14.svg';
 
 
 const CardDetails = () => {
@@ -21,9 +22,13 @@ const CardDetails = () => {
       return (
         <div className={styles.contentDetalic}>
           <img src={vetka} alt='' className={styles.vetka1} />
-          <Header />
+          <Header>
+            <NavLink to='/main'>
+            <img src={vector} alt='' className={styles.vector}  />
+            </NavLink>
+         
+          </Header>
           <div className={`${styles['main-content']}`}>
-            <SearchTest />
             <div className={`${styles['card-constainer']} d-flex flex-column gap-5`}>
             <h1 className={styles['title-card']}>{el.strMeal}</h1>
               <div className={styles.headerContent}>

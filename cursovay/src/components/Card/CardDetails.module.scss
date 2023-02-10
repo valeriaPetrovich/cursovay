@@ -1,6 +1,12 @@
 body{
   background: #F7FAF0;
 }
+
+.vector{
+  width: 20px;
+  height: 70.5px;
+  transform: rotate(180deg); 
+}
 .main-content{
   width: 70%;
   margin: 0 auto;

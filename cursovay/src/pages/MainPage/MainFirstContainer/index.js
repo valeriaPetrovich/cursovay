@@ -11,7 +11,7 @@ const MainFirstContainer = () => {
           <div class="col-md-5">
             <h2 className={`${styles['title']}`}>Вкусно то, что вы заслуживаете!</h2>
             <NavLink to="/scan" className={styles.button}>
-              Сканировтать 
+              Сканировать 
             </NavLink>
           </div>
 

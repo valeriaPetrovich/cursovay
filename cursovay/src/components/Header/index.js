@@ -4,11 +4,12 @@ import Menu from "../Menu";
 import buttonIcon from '../../assets/Rectangle 2.svg'
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+
+const Header = ({children}) => {
   return (
 <div className={styles.header}> 
-<Menu/>
-<h2 className={`${styles['title']}  pt-3`}>AYMLMENU</h2>
+{children}
+<NavLink style={{textDecoration:'none'}} to='/'><h2 className={`${styles['title']}  pt-3`}>AYMLMENU</h2></NavLink>
 <NavLink to='/booking' className={`${styles['reservbutton']}  pt-3`} >
 <img src={buttonIcon} alt='button'/>
 Make a reservation

@@ -8,6 +8,16 @@
     
 }
 
+.menu{
+    display: none;
+}
+
+.vector{
+    width: 20px;
+    height: 70.5px;
+    transform: rotate(180deg); 
+}
+
 .title{
     font-family: 'Modern No. 20';
 font-style: normal;
@@ -15,6 +25,7 @@ font-weight: 400;
 font-size: 35px;
 line-height: 34px;
 color: #000000;
+
 }
 .reservbutton{
     box-sizing: border-box;

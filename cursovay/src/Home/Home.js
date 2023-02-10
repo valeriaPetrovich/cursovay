@@ -28,13 +28,14 @@ const Home = () => {
         <img src={vetka} alt='' className={styles.vetka1} />
       
       
-      <Header />
-      <div className="container ">
-
+      <Header>
       <NavLink to={'/scan'}>
       <img src={scanSVG} alt=''/>
-    
         </NavLink>
+      </Header>
+      <div className="container ">
+
+
         
         <SearchTest />
         <Filters />
