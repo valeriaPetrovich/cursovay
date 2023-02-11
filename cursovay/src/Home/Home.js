@@ -10,16 +10,12 @@ import vetkaBottom from '../../src/assets/Group 14.png'
 import Filters from "../components/Filters";
 import scanSVG from '../assets/scan.svg'
 import { NavLink } from "react-router-dom";
-import useMeals from "../hoock/useMeals";
-import { useDispatch } from 'react-redux';
-import { setResults } from '../store/reducer/resultsSlice';
-
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const LIMIT = 12;
-  const { myFilt } = useFilter();
-  let sliceResults = myFilt.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
+  const { filtStatus, myFilt } = useFilter();
+  let sliceResults = filtStatus.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
   const total = 240;
 
   return (

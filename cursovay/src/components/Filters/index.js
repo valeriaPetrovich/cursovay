@@ -2,20 +2,25 @@ import React, {useEffect} from "react";
 import styles from './styles.module.scss';
 import { useDispatch } from "react-redux";
 import Dropdown from 'react-bootstrap/Dropdown';
-import {setMainsSlise, setDesertSlise, setVeganSlise } from "../../store/reducer/statusSlice";
+import {setMainsSlise, setDesertSlise, setVeganSlise, setStatusNowSlise } from "../../store/reducer/statusSlice";
 import useFilter from "../../hoock/useFilter";
+
 
 const Filters = () => {
   const mainsItems = ["Говядина", "Завтрак", "Курица", "Свинина", "Коза", "Баранина", "Разное", "Паста", "Морепродукты", "Гарнир", "Закуска"]
   const dessertItems = ["Десерт"];
   const veganItems = ["Веганский", "Вегетрианский"];
   const dispatch = useDispatch();
-  const {filterStatus} = useFilter();
+  //const {filtStatus} = useFilter();
 
   const fetchStatus = () =>{
     dispatch(setMainsSlise(mainsItems));
     dispatch(setDesertSlise(dessertItems));
     dispatch( setVeganSlise(veganItems));
+  }
+
+  const getStatusNow = (el) =>{
+    dispatch( setStatusNowSlise(el));
   }
 
   useEffect(()=>{
@@ -33,7 +38,7 @@ const Filters = () => {
       <Dropdown.Menu className={styles['custom-dropdown']}>
           {mainsItems.map((item, index) => (
           <Dropdown.Item key={index} className={styles['dropdown-items']}  onClick={() => {
-            filterStatus(item);
+            getStatusNow(item);
           }}>
             {item}
             </Dropdown.Item>
@@ -49,7 +54,9 @@ const Filters = () => {
 
       <Dropdown.Menu className={styles['custom-dropdown']}>
       {dessertItems.map((item, index) => (
-          <Dropdown.Item key={index} className={styles['dropdown-items']}>
+          <Dropdown.Item key={index} className={styles['dropdown-items']} onClick={() => {
+            getStatusNow(item);
+          }}>
             {item}
             </Dropdown.Item>
           ))}
@@ -64,7 +71,9 @@ const Filters = () => {
 
       <Dropdown.Menu className={styles['custom-dropdown']}>
       {veganItems.map((item, index) => (
-          <Dropdown.Item key={index} className={styles['dropdown-items']}>
+          <Dropdown.Item key={index} className={styles['dropdown-items']} onClick={() => {
+            getStatusNow(item);
+          }}>
             {item}
             </Dropdown.Item>
           ))}

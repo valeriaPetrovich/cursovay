@@ -4,7 +4,8 @@ import { cloneDeep } from 'lodash';
 const initialState = {
 	mains: [],
     desert:[],
-    vegan:[]
+    vegan:[],
+	statusNow:[]
 };
 
 export const statusSlice = createSlice({
@@ -20,10 +21,13 @@ export const statusSlice = createSlice({
 		setVeganSlise: (state, action) => {
 			state.vegan = cloneDeep(action.payload);
 		},
+		setStatusNowSlise: (state, action) => {
+			state.statusNow = cloneDeep(action.payload);
+		},
 
 	}
 });
 
 export default statusSlice.reducer;
 
-export const { setMainsSlise, setDesertSlise, setVeganSlise  } = statusSlice.actions;
+export const { setMainsSlise, setDesertSlise, setVeganSlise, setStatusNowSlise  } = statusSlice.actions;
