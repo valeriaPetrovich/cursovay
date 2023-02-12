@@ -25,6 +25,7 @@ const CardDetails = () => {
           <Header>
             <NavLink to='/main'>
             <img src={vector} alt='' className={styles.vector}  />
+            <img src={vector} alt='' className={styles.vector}  />
             </NavLink>
          
           </Header>

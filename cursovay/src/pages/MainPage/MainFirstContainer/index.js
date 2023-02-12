@@ -8,14 +8,14 @@ const MainFirstContainer = () => {
     <div className="container" id='about'>
       <div className={`${styles['content']} mt-5`}>
         <div className="row">
-          <div class="col-md-5">
+          <div className="col-md-5">
             <h2 className={`${styles['title']}`}>Вкусно то, что вы заслуживаете!</h2>
             <NavLink to="/scan" className={styles.button}>
-              Сканировать 
+              Сканировтать 
             </NavLink>
           </div>
 
-          <div class="col-md-5 col-md-offset-4">
+          <div className="col-md-5 col-md-offset-4">
             <img src={imgMaim} atl="imgMain" className={styles.img} />
           </div>
         </div>

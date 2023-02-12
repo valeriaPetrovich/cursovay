@@ -2,16 +2,9 @@
     height: 77px;
     border-bottom: 2px solid rgba(155, 210, 65, 0.63);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 285px;
-    
+    justify-content: space-around;
+    align-items: center;
 }
-
-.menu{
-    display: none;
-}
-
 .vector{
     width: 20px;
     height: 70.5px;
@@ -28,9 +21,7 @@ color: #000000;
 
 }
 .reservbutton{
-    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;

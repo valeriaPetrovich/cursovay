@@ -3,9 +3,11 @@
 
 .pagination {
   max-width: 100%;
+  margin-top: 68px;
   @include flex('center', 'center');
   list-style-type: none;
-  gap: 15px;
+  gap: 25px;
+  margin-left: -3%;
   :global(.ant-pagination-item-link){
     background-color: rgba(155, 210, 65, 0.63);
     border-radius: 100px;
@@ -31,7 +33,4 @@
     line-height: 23px;
     color: #000000;
   }
-
-
-  
 }

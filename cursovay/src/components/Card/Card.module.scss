@@ -1,12 +1,18 @@
 .cardsConteiner{
   margin-top: 12%;
+  padding-left: 45px;
+  background: none;
 }
 
 .cards {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
   width: 342.29px;
-  height: 348px;
+height: 348px;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 16px 22px;
+  justify-content: center;
+  align-items: center;
 
 }
 .text-catd {

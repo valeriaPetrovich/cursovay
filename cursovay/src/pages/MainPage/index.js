@@ -1,17 +1,17 @@
 import React from "react";
 import styles from './styles.module.scss';
 import Header from "../../components/Header";
+import Menu from "../../components/Menu";
 import MainFirstContainer from "./MainFirstContainer";
 import MainSecondContainer from "./MainSecondContainer";
 import MainThirdComponent from "./MainThirdContainer";
-import Menu from "../../components/Menu";
 
 const MainPage = () => {
   return (
 <div className="container">
 <div className={styles.main}> 
 <Header>
-<Menu/>
+  <Menu/>
 </Header>
 <MainFirstContainer/>
 <MainSecondContainer/>
