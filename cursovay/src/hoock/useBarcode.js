@@ -8,9 +8,8 @@ const useBarcode = () => {
     console.log('barcode', barcode);
   const getdata = flatten(data.map((component) => component));
   const myFilt = getdata.filter((e) => {
-    return e.barcode2 === barcode;                                      //////////.strMeal.toLowerCase().includes(search);
+    return e.barcode === barcode;                                      //////////.strMeal.toLowerCase().includes(search);
   })
-
 
   return { myFilt,getdata }
 }

@@ -3,8 +3,8 @@ import "bootstrap/dist/js/bootstrap";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CardDetails from "./components/Card/CardDetails";
-import Home from "./Home/Home";
-import Booking from "./Booking/Booking";
+import Home from "./pages/Home/Home";
+import Booking from "./pages/Booking/Booking";
 import MainPage from "./pages/MainPage";
 import Scan from "./pages/Scan";
 function App() {

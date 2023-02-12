@@ -1,14 +1,14 @@
-import Cards from "../components/Card/Card";
+import Cards from "../../components/Card/Card";
 import React, { useState, useEffect } from "react";
-import Pagination from "../components/Pagination/Pagination";
+import Pagination from "../../components/Pagination/Pagination";
 import styles from './styles.module.scss';
-import SearchTest from "../components/SearchTest";
-import useFilter from "../hoock/useFilter";
-import Header from "../components/Header";
-import vetka from '../../src/assets/Group 13.png'
-import vetkaBottom from '../../src/assets/Group 14.png'
-import Filters from "../components/Filters";
-import scanSVG from '../assets/scan.svg'
+import SearchTest from "../../components/SearchTest";
+import useFilter from "../../hoock/useFilter";
+import Header from "../../components/Header";
+import vetka from '../../../src/assets/Group 13.png'
+import vetkaBottom from '../../../src/assets/Group 14.png'
+import Filters from '../../components/Filters';
+import scanSVG from '../../assets/scan.svg'
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
