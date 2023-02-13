@@ -2,14 +2,22 @@ import React, {useState} from "react";
 import Form from 'react-bootstrap/Form';
 import styles from './styles.module.scss';
 import DatePicker from "react-datepicker";
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import goodBoking from '../../assets/Group 30.svg';
 // import { useDispatch, useSelector } from 'react-redux';
 // import { setData, setTime, setGuases } from "../../store/reducer/bookingSlice";
 import { debounce } from 'lodash';
 
 import "react-datepicker/dist/react-datepicker.css";
+import img from '../../assets/unsplash_godkmdG6M6o.jpg';
+import { NavLink } from "react-bootstrap";
 
 const Booking = () => {
-  // const [startDate, setStartDate] = useState(new Date());
+   const [startDate, setStartDate] = useState(new Date());
+   const [show, setShow] = useState(false);
+   const handleClose = () => setShow(false);
+   const handleShow = () => setShow(true);
   // const [guasesNumber, setGuasesNumber] = useState('');
   // const [timeNumber, settimeNumber] = useState('');
 
@@ -30,18 +38,37 @@ const Booking = () => {
 
   const time = ['9:00', '9:30', '10:00','10:30','11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00','14:30', '15:00', '15:30', '16:00', '16:30', '17:00', '17:30', '18:00','18:30', '19:00', '19:30', '20:00', '20:30', '21:00', '21:30', '22:00' ];
   return (
-<div className="container">
-<div className={styles.title}>
-  <h1>  Welcome  </h1>
-</div>
+<div className={styles.content}>
+<img src={img} alt='' className={styles.img} />
 
+<div className={styles.bookingContainer}>
+<NavLink to='/' className={styles.title}>
+    AYMLMENU
+</NavLink>
+<div className={styles.formContent}>
   <div className={styles.form}>
+    <div className={styles.name}>
+    <Form.Group>
+    <Form.Control id="disabledTextInput" placeholder="Имя"  className={styles.inputBooking} />
+    </Form.Group>
+    <Form.Group>
+    <Form.Control id="disabledTextInput" placeholder="Фамилия"  className={styles.inputBooking} />
+    </Form.Group>
+    </div>
+    <div className={styles.name}>
+    <Form.Group>
+    <Form.Control id="disabledTextInput" placeholder="Номер телефона" className={styles.inputBooking} />
+    </Form.Group>
+    <Form.Group>
+    <Form.Control id="disabledTextInput" placeholder="Электронная почта" className={styles.inputBooking} />
+    </Form.Group>
+    </div>
+    <div className={styles.name}>
 <Form.Group className="mb-3">
-<DatePicker /*selected={startDate}*/ /*onChange={(date) => setStartDate(date)}*/ />
+<DatePicker className={styles.inputBookingDate}  selected={startDate} onChange={(date) => setStartDate(date)} />
       </Form.Group>
       <Form.Group className="mb-3">
-        
-        <Form.Select /*onClick={(e)=> settimeNumber(e.target.value)}*/>
+        <Form.Select className={styles.inputBooking}  /*onClick={(e)=> settimeNumber(e.target.value)}*/>
           {
           time.map(e => (
           <option>{e}</option>
@@ -50,14 +77,34 @@ const Booking = () => {
 
         </Form.Select>
       </Form.Group>
+      </div>
       <Form.Group className="mb-3">
-      <Form.Control id="disabledTextInput" placeholder="Guest" /*onChange={handGuases}*/ />
-      </Form.Group>
-      <Form.Group className="mb-3">
-
-       <button /*onClick={()=> featchBooking()}*/>Book now</button>
+      <Form.Control id="disabledTextInput" placeholder="Количество гостей" /*onChange={handGuases}*/ className={styles.inputBookingGuases} />
       </Form.Group>
       </div>
+      <button className={styles.buttonBoking} onClick={handleShow}  /*onClick={()=> featchBooking()}*/>Забронировать</button>
+      </div>
+      </div>
+
+      <div
+      className="modal show"
+      style={{ display: 'block', position: 'initial' }}
+    >
+
+      <Modal show={show} onHide={handleClose} >
+        <div className={styles.book}>
+        <img src={goodBoking} alt='' className={styles.goodBoking} />
+        <div>
+          <p className={styles.titleModal}>Столик успешно забронирован!</p>
+          <p className={styles.textModal}>Ждем вас с нетерпением 12 февраля в 19:00 по адресу: г.Минск, ул. Карла Маркса,18</p>
+          </div>
+          <Button variant="secondary" onClick={handleClose} className={styles.buttonModal}>
+            На главную
+          </Button>
+          </div>
+      </Modal>
+    </div>
+
 </div>
   );
 

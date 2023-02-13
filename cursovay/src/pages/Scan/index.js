@@ -20,7 +20,7 @@ const LIMIT = 12;
 let sliceResults = myFilt.slice(LIMIT * (currentPage - 1), currentPage * LIMIT);
 const total = 240;
   return (
-    <>
+    <div>
     <Header>
       <div className={styles.buttonContent}>
         <NavLink to='/'> <button className={styles.button}>Главная</button></NavLink>
@@ -36,15 +36,17 @@ const total = 240;
         setData(result.text);
         }}
       />
-
-      <div className={` col-10`}>
+            </div>
+      <div className={styles.cards}>
+      <div className={` col-10`} >
           <div className="row">
             <Cards page="/" sliceResults={sliceResults} />
           </div>
         </div>
         <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} total={total} />
-      </div>
-    </>
+        </div>
+
+    </div>
   );
 }
 
