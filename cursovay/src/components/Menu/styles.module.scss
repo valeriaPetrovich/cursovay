@@ -10,6 +10,10 @@
     a{
       text-decoration: none; 
       color: #000;
+      &:hover,
+      &:focus{
+        color: rgba(155, 210, 65, 0.63);
+      }
     }
 
   }

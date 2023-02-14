@@ -6,20 +6,11 @@
     align-items: center;
 }
 .barcodeComponents{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-                //background: url(../../assets/unsplash_N_Y88TWmGwA.png);
-                background: url(../../assets/unsplash_N_Y88TWmGwA.png) no-repeat;
-                -moz-background-size: 100%; 
-                -webkit-background-size: 100%;
-                -o-background-size: 100%; 
-                background-size: 100%;
-    
-
+    background: rgba(180, 227, 106, 0.63);
 }
 
 

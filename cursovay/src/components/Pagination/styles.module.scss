@@ -9,20 +9,21 @@
   gap: 25px;
   margin-left: -3%;
   :global(.ant-pagination-item-link){
-    background-color: rgba(155, 210, 65, 0.63);
+  color: rgba(155, 210, 65, 0.63);
+   font-size: 30px;
+   background: none;
+   border: none;
+   }
+   :global(.ant-pagination-next){
+    background-color: none;
     border-radius: 100px;
     border: none;
-    width: 45.89px;
-   height: 45px;
-   color:  #FFFFFF;
-   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    }
   :global(.ant-pagination-item){
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
-    font-size: 19.9367px;
-    line-height: 23px;
     color: #000000;
   }
   :global(.ant-pagination-prev){

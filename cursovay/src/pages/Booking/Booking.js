@@ -14,10 +14,24 @@ import img from '../../assets/unsplash_godkmdG6M6o.jpg';
 import { NavLink } from "react-bootstrap";
 
 const Booking = () => {
-   const [startDate, setStartDate] = useState(new Date());
    const [show, setShow] = useState(false);
+   const [startDate, setStartDate] = useState(new Date());
+  //  console.log('startDate',startDate);
+  //  const [stateName, setStateName]=useState('');
+  //  console.log('stateName',stateName);
+  //  const [statePassName, setStatePassName]=useState('');
+  //  console.log('statePassName',statePassName);
+  //  const [stateNumber, setStateNumber]=useState('');
+  //  console.log('stateNumber',stateNumber);
+  //  const [stateEmail, setStateEmail]=useState('');
+  //  console.log('stateEmail',stateEmail);
+  //  const [stateTime, setStateTime]=useState('');
+  //  console.log('stateTime',stateTime);
+  //  const [stateGuases, setStateGuases]=useState('');
+  //  console.log('stateGuases',stateGuases);
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
+
   // const [guasesNumber, setGuasesNumber] = useState('');
   // const [timeNumber, settimeNumber] = useState('');
 
@@ -49,18 +63,18 @@ const Booking = () => {
   <div className={styles.form}>
     <div className={styles.name}>
     <Form.Group>
-    <Form.Control id="disabledTextInput" placeholder="Имя"  className={styles.inputBooking} />
+    <Form.Control id="disabledTextInput" placeholder="Имя" /*onChange={(e)=>setStateName(e.target.value)}*/  className={styles.inputBooking} />
     </Form.Group>
     <Form.Group>
-    <Form.Control id="disabledTextInput" placeholder="Фамилия"  className={styles.inputBooking} />
+    <Form.Control id="disabledTextInput" placeholder="Фамилия" /*onChange={(e)=>setStatePassName(e.target.value)}*/  className={styles.inputBooking} />
     </Form.Group>
     </div>
     <div className={styles.name}>
     <Form.Group>
-    <Form.Control id="disabledTextInput" placeholder="Номер телефона" className={styles.inputBooking} />
+    <Form.Control id="disabledTextInput" /*onChange={(e)=>setStateNumber(e.target.value)}*/ placeholder="Номер телефона" className={styles.inputBooking} />
     </Form.Group>
     <Form.Group>
-    <Form.Control id="disabledTextInput" placeholder="Электронная почта" className={styles.inputBooking} />
+    <Form.Control id="disabledTextInput" placeholder="Электронная почта" /*onChange={(e)=>setStateEmail(e.target.value)}*/ className={styles.inputBooking} />
     </Form.Group>
     </div>
     <div className={styles.name}>
@@ -68,7 +82,7 @@ const Booking = () => {
 <DatePicker className={styles.inputBookingDate}  selected={startDate} onChange={(date) => setStartDate(date)} />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Select className={styles.inputBooking}  /*onClick={(e)=> settimeNumber(e.target.value)}*/>
+        <Form.Select className={styles.inputBooking}  /*onClick={(e)=> setStateTime(e.target.value)}*/>
           {
           time.map(e => (
           <option>{e}</option>
@@ -79,10 +93,10 @@ const Booking = () => {
       </Form.Group>
       </div>
       <Form.Group className="mb-3">
-      <Form.Control id="disabledTextInput" placeholder="Количество гостей" /*onChange={handGuases}*/ className={styles.inputBookingGuases} />
+      <Form.Control id="disabledTextInput" /*onChange={(e)=>setStateGuases(e.target.value)}*/ placeholder="Количество гостей" /*onChange={handGuases}*/ className={styles.inputBookingGuases} />
       </Form.Group>
       </div>
-      <button className={styles.buttonBoking} onClick={handleShow}  /*onClick={()=> featchBooking()}*/>Забронировать</button>
+      <button className={styles.buttonBoking} onClick={handleShow} >Забронировать</button>
       </div>
       </div>
 
