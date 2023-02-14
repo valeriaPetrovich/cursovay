@@ -11,11 +11,13 @@ import icon from '../../assets/bx_food-menu.svg';
 import iconRecept from '../../assets/Vector.svg';
 import youtubeIcon from '../../assets/Vector (1).svg'
 import vector from '../../assets/Vector 14.svg';
+import useGoback from "../../hoock/useGoBack";
 
 
 const CardDetails = () => {
   let { id } = useParams();
   const { getdata } = useFilter();
+  const {goBack} = useGoback();
   let display;
   display = getdata.map((el) => {
     if (el.idMeal === id) {
@@ -23,10 +25,10 @@ const CardDetails = () => {
         <div className={styles.contentDetalic}>
           <img src={vetka} alt='' className={styles.vetka1} />
           <Header>
-            <NavLink to='/main'>
+            <button onClick={goBack} className={styles.buttonGoBack} >  
+             <img src={vector} alt='' className={styles.vector}  />
             <img src={vector} alt='' className={styles.vector}  />
-            <img src={vector} alt='' className={styles.vector}  />
-            </NavLink>
+            </button>
          
           </Header>
           <div className={`${styles['main-content']}`}>

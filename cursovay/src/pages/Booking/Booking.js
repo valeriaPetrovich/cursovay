@@ -5,9 +5,10 @@ import DatePicker from "react-datepicker";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import goodBoking from '../../assets/Group 30.svg';
+import useGoback from "../../hoock/useGoBack";
+
 // import { useDispatch, useSelector } from 'react-redux';
 // import { setData, setTime, setGuases } from "../../store/reducer/bookingSlice";
-import { debounce } from 'lodash';
 
 import "react-datepicker/dist/react-datepicker.css";
 import img from '../../assets/unsplash_godkmdG6M6o.jpg';
@@ -16,6 +17,10 @@ import { NavLink } from "react-bootstrap";
 const Booking = () => {
    const [show, setShow] = useState(false);
    const [startDate, setStartDate] = useState(new Date());
+   const {goBack} = useGoback();
+
+
+
   //  console.log('startDate',startDate);
   //  const [stateName, setStateName]=useState('');
   //  console.log('stateName',stateName);
@@ -112,7 +117,7 @@ const Booking = () => {
           <p className={styles.titleModal}>Столик успешно забронирован!</p>
           <p className={styles.textModal}>Ждем вас с нетерпением 12 февраля в 19:00 по адресу: г.Минск, ул. Карла Маркса,18</p>
           </div>
-          <Button variant="secondary" onClick={handleClose} className={styles.buttonModal}>
+          <Button variant="secondary" onClick={goBack} className={styles.buttonModal}>
             На главную
           </Button>
           </div>
