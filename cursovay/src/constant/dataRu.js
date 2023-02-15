@@ -49,7 +49,6 @@ export const data = [[
         "strMeasure18": null,
         "strMeasure19": null,
         "strMeasure20": null,
-        'barcodeTest':['4870004200555','4607070042181','7622210453853', '4607012711489', '4607012711489', '4820138101198','4813635001283' ],
         'barcode':'4870004200555',
         'barcodeEGS':'4607070042181',
         'barcodePechene': '7622210453853',

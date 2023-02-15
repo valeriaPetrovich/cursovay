@@ -28,13 +28,13 @@ const total = 240;
       </div>
     </Header>
     <div className={styles.barcodeComponents}>
-      <BarcodeScannerComponent
+    <BarcodeScannerComponent
         width={500}
         height={500}
-        onUpdate={(result) => {
-          if(result)
-        setData(result.text);
+        onUpdate={(err, result) => {
+          if (result) setData(result.text);
         }}
+        style={{ width: '100%' }}
       />
             </div>
       <div className={styles.cards}>

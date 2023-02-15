@@ -26,7 +26,7 @@ const Home = () => {
       
       <Header>
       <NavLink to={'/scan'}>
-      <img src={scanSVG} alt=''/>
+      <img src={scanSVG} alt='' width={80} height={80}/>
         </NavLink>
       </Header>
       <div className="container ">

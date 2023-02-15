@@ -5,6 +5,15 @@ import { NavLink } from 'react-router-dom';
 
 const MainFirstContainer = () => {
   return (
+    // <div className={styles.firstContainer}>
+    //       <div className={styles.leftContent}>
+    //         <h2 className={`${styles['title']}`}>Вкусно то, что вы заслуживаете!</h2>
+    //         <NavLink to="/scan" className={styles.button}>
+    //           Сканировать 
+    //         </NavLink>
+    //       </div>
+    //         <img src={imgMaim} atl="imgMain" className={styles.img} />
+    // </div>
     <div className="container" id='about'>
       <div className={`${styles['content']} mt-5`}>
         <div className="row">
