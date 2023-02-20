@@ -9,7 +9,7 @@ import useFilter from "../../hoock/useFilter";
 const Filters = () => {
   const mainsItems = ["Говядина", "Завтрак", "Курица", "Свинина", "Коза", "Баранина", "Разное", "Паста", "Морепродукты", "Гарнир", "Закуска"]
   const dessertItems = ["Десерт"];
-  const veganItems = ["Веганский", "Вегетрианский"];
+  const veganItems = ["Веганский", "Вегетарианский"];
   const dispatch = useDispatch();
   //const {filtStatus} = useFilter();
 
