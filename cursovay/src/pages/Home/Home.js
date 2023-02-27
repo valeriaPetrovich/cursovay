@@ -1,5 +1,5 @@
 import Cards from "../../components/Card/Card";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Pagination from "../../components/Pagination/Pagination";
 import styles from './styles.module.scss';
 import SearchTest from "../../components/SearchTest";

@@ -49,12 +49,13 @@ export const data = [[
         "strMeasure18": null,
         "strMeasure19": null,
         "strMeasure20": null,
-        'barcode':'4870004200555',
-        'barcodeEGS':'4607070042181',
-        'barcodePechene': '7622210453853',
-        'barcodeApple':'4607012711489',
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMindal':'4813635001283',
+        'barcodeTest':['4870004200555','4607070042181','7622210453853','4607012711489', '4820138101198', '4813635001283' ],
+        // 'barcode':'4870004200555',
+        // 'barcodeEGS':'4607070042181',
+        // 'barcodePechene': '7622210453853',
+        // 'barcodeApple':'4607012711489',
+        // 'barcodeSweetPudra':'4820138101198',
+        // 'barcodeMindal':'4813635001283',
         "strSource": null,
         "strImageSource": null,
         "strCreativeCommonsConfirmed": null,
@@ -162,12 +163,13 @@ export const data = [[
         "strMeasure20": "",
 
         "strSource": "https://www.bbcgoodfood.com/recipes/778642/apple-and-blackberry-crumble ",
-        'barcodeApple':'4607012711489',
-        'barcodeSweetPudra':'4820138101198',
-        'barcode':'4870004200555',
-        'barcodeSugarDemerara':'4103520006401',
-        'barcodeCorica': '1080903895896',
-        'barcodeMorogenor':'00000178',
+         'barcodeTest':['4607012711489','4820138101198','4870004200555','4103520006401', '1080903895896', '00000178'],
+        // 'barcodeApple':,
+        // 'barcodeSweetPudra':,
+        // 'barcode':,
+        // 'barcodeSugarDemerara':,
+        // 'barcodeCorica': ,
+        // 'barcodeMorogenor':,
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -273,13 +275,14 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcode':'4870004200555',
+       'barcodeTest':['4607070042181','00000079','	00000185','4606598000116', '1056614410079', '000000221283','4870004200555'],
+        // 'barcodeEGS':'4607070042181',
+        // 'barcodeMilk':'00000079',
+        // 'barcodeMuka':'	00000185',
+        // 'barcodeRazrahliyt':'4606598000116',
+        // 'barcodeSol':'1056614410079',
+        // 'barcodeSugar':'000000221283',
+        // 'barcode':'4870004200555',
         "strSource": "https://www.nyonyacooking.com/recipes/apam-balik ~SJ5WuvsDf9WQ",
 
         "strImageSource": null,
@@ -290,121 +293,7 @@ export const data = [[
 
     },
 
-    {
 
-        "idMeal": "53050",
-
-        "strMeal": "Аям Персик",
-
-        "strDrinkAlternate": null,
-        "strArea": "Малазия",
-
-        "strCategory": "Курица",
-
-        "strInstructions": "В блендер добавьте ингредиенты для пасты со специями и взбейте до получения однородной массы.\r\nНа среднем огне вылейте пасту со специями в сотейник или сковороду и обжаривайте в течение 10 минут до появления аромата. Добавляйте воду или масло по 1 столовой ложке за раз, если паста станет слишком сухой. Не обжигайте пасту. При необходимости немного убавьте огонь.\r\nСмешайте гвоздику, кардамон, мякоть тамаринда, кокосовое молоко, воду, сахар и соль. Увеличьте огонь и доведите смесь до кипения. Убавьте огонь до средне-низкого и тушите в течение 10 минут. Время от времени помешивайте. Это немного уменьшит его. Это маринад/ соус, поэтому попробуйте и при необходимости добавьте приправы. Не волнуйтесь, если он немного горчит. Он исчезнет при обжаривании.\r\nПкогда маринад/соус остынет, вылейте все на курицу и маринуйте от ночи до двух дней.\r\nNразогрейте духовку до 425 F.\r\nN Выньте курицу из маринада. Выложите маринад ложкой на смазанный маслом (или выстланный алюминием) противень. Выложите курицу поверх соуса (убедитесь, что курица покрывает соус и соус не выступает наружу, иначе он подгорит) и намажьте курицу оставшимся маринадом. Запекайте в течение 35-45 минут или до тех пор, пока внутренняя температура самой толстой части курицы не станет не менее 175 F.\r\nП Пусть курица отдохнет 5 минут. Смажьте курицу небольшим количеством масла. Подавайте курицу с соусом поверх приготовленного на пару риса (или кокосового риса).",
-
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg ",
-
-        "strTags": null,
-
-        "strYoutube": "https://www.youtube.com/watch?v=9ytR28QK6I8 ",
-
-        "strIngredient1": "Куриные бедра",
-
-        "strIngredient2": "Шалот",
-
-        "strIngredient3": "Имбирь",
-
-        "strIngredient4": "Зубчик чеснока",
-
-        "strIngredient5": "Кайенский перец",
-
-        "strIngredient6": "Куркума",
-
-        "strIngredient7": "Тмин",
-
-        "strIngredient8": "Кориандр",
-
-        "strIngredient9": "Фенхель",
-
-        "strIngredient10": "Паста из тамаринда",
-
-        "strIngredient11": "Кокосовое молоко",
-
-        "strIngredient12": "Сахар",
-
-        "strIngredient13": "Вода",
-
-        "strIngredient14": "",
-
-        "strIngredient15": "",
-
-        "strIngredient16": "",
-
-        "strIngredient17": "",
-
-        "strIngredient18": "",
-
-        "strIngredient19": "",
-
-        "strIngredient20": "",
-
-        "strMeasure1": "6",
-
-        "strMeasure2": "16",
-
-        "strMeasure3": "1 1/2",
-
-        "strMeasure4": "6",
-
-        "strMeasure5": "8",
-
-        "strMeasure6": "2 столовые ложки",
-
-        "strMeasure7": "1 1/2",
-
-        "strMeasure8": "1 1/2",
-
-        "strMeasure9": "1 1/2",
-
-        "strMeasure10": "2 столовые ложки",
-
-        "strMeasure11": "1 банка",
-
-        "strMeasure12": "1 чайная ложка",
-
-        "strMeasure13": "1 чашка",
-
-        "strMeasure14": " ",
-
-        "strMeasure15": " ",
-
-        "strMeasure16": " ",
-
-        "strMeasure17": " ",
-
-        "strMeasure18": " ",
-
-        "strMeasure19": " ",
-
-        "strMeasure20": " ",
-        'barcodeSugar':'000000221283',
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeKokoMilk':'0016229001711',
-        'barcodeKurkuma':'1080903899214',
-        'barcodeImbir':'1080903899238',
-        'barcodeKurinieBedra':'	4607177073163',
-        "strSource": "http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik /",
-
-        "strImageSource": null,
-
-        "strCreativeCommonsConfirmed": null,
-
-        "dateModified": null
-
-    },
 
     {
 
@@ -506,12 +395,13 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeMindal':'4813635001283',
-        'barcodeMuka':'	00000185',
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeVarene':'1207110000022',
-        'barcodeSugar':'000000221283',
+        'barcodeTest':['4813635001283','4820138101198','	00000185','4607070042181', '1207110000022', '000000221283'],
+        // 'barcodeMindal':'4813635001283',
+        // 'barcodeMuka':'	00000185',
+        // 'barcodeSweetPudra':'4820138101198',
+        // 'barcodeEGS':'4607070042181',
+        // 'barcodeVarene':'12071100000,22'
+        // 'barcodeSugar':'000000221283',
         "strSource": null,
 
         "strImageSource": null,
@@ -622,12 +512,13 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeBread':'0000000001144',
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeSugar':'000000221283',
-        'barcode':'3161911393210',
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['0000000001144','1080903895896','00000079','4607070042181', '3161911393210', '000000221283'],
+//         'barcodeBread':'0000000001144',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeSugar':'000000221283',
+//         'barcode':'3161911393210',
+//         'barcodeEGS':'4607070042181',
         "strSource": "https://cooking.nytimes.com/recipes/1018529-coq-au-vin ",
 
         "strImageSource": null,
@@ -737,10 +628,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMuka':'	00000185',
-        'barcodeEGS':'4607070042181',
-        'barcodeMashrums':'0880730105264',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['	00000185','0880730105264','0049248011058','4607070042181'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMashrums':'0880730105264',
+//         'barcodeMasloOil':'0049248011058',
 
         "strSource": "http://www.goodtoknow.co.uk/recipes/164868/Gordon-Ramsay-s-beef-Wellington ",
 
@@ -961,8 +853,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "http://www.simplyrecipes.com/recipes/beef_brisket_pot_roast /",
 
         "strImageSource": null,
@@ -1072,8 +964,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
+'barcodeTest':['4607070042181','00000079'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
         "strSource": "https://www.bbcgoodfood.com/recipes/9020/best-yorkshire-puddings ",
 
         "strImageSource": null,
@@ -1183,8 +1076,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeTmin':'1080903899719',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903899719','0049248011058'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.telegraph.co.uk/food-and-drink/recipes/braised-beef-chilli-con-carne /",
 
         "strImageSource": null,
@@ -1292,8 +1186,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMashrums':'0880730105264',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0880730105264','0049248011058'],
+//         'barcodeMashrums':'0880730105264',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/beef-stroganoff ",
 
         "strImageSource": null,
@@ -1623,8 +1518,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['4607070042181','4606598000116'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.bbcgoodfood.com/recipes/banana-pancakes ",
 
         "strImageSource": null,
@@ -1734,8 +1630,9 @@ export const data = [[
         "strMeasure19": "Всплеск",
 
         "strMeasure20": "",
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','4606598000116'],
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbc.co.uk/food/recipes/beefstewwithdumpling_87333 ",
 
         "strImageSource": null,
@@ -1845,7 +1742,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.bbc.co.uk/food/recipes/beef_and_mustard_pie_58002 ",
 
         "strImageSource": null,
@@ -1955,8 +1853,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbc.co.uk/food/recipes/beef_and_oyster_pie_65230 ",
 
         "strImageSource": null,
@@ -2066,9 +1965,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4606598000116','4820138101198','000000221283'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.bbc.co.uk/food/recipes/blackberry_fool_with_11859 ",
 
         "strImageSource": null,
@@ -2178,10 +2078,11 @@ export const data = [[
         "strMeasure19": "1 кг",
 
         "strMeasure20": "Удаление пыли",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['4606598000116','4820138101198','4607070042181','	00000185'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.bbcgoodfood.com/recipes/1120657/battenberg-cake ",
 
         "strImageSource": null,
@@ -2291,8 +2192,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','	074574953000'],
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/5032/beef-bourguignon ",
 
         "strImageSource": null,
@@ -2402,9 +2304,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
+'barcodeTest':['4820138101198','4607070042181','00000079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/1803634/brie-wrapped-in-prosciutto-and-brioche ",
 
@@ -2515,7 +2418,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/5056/boulangre-potatoes ",
 
         "strImageSource": null,
@@ -2625,14 +2529,15 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['000000221283','4607070042181','1080903895896','00000079','	00000185','1056614410079'],
+//         'barcodeEGS':'4607070042181',
 
-        "strSource": "https://www.tastemade.com/videos/beavertails ",
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+//         "strSource": "https://www.tastemade.com/videos/beavertails ",
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
 
         "strImageSource": null,
 
@@ -2741,8 +2646,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
-        'barcodeKokoMilk':'0016229001711',
+'barcodeTest':['	074574953000','0016229001711'],
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeKokoMilk':'0016229001711',
         "strSource": "http://www.geniuskitchen.com/recipe/authentic-jamaican-brown-stew-chicken-347996 ",
 
         "strImageSource": null,
@@ -2852,12 +2758,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-
-        "barcode":'4607070042181',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeImbir':'1080903899238',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['4607070042181','1056614410079','000000221283','1080903899238','0880730105264'],
+//         "barcode":'4607070042181',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeImbir':'1080903899238',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://sueandgambo.com/pages/beef-lo-mein ",
 
         "strImageSource": null,
@@ -2967,7 +2873,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/7745/baked-salmon-with-fennel-and-tomatoes ",
 
         "strImageSource": null,
@@ -3077,11 +2984,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeSugar':'000000221283',
-        'barcodeCorica': '1080903895896',
+'barcodeTest':['4820138101198','4607070042181','	00000185','000000221283','1080903895896'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSugar':'000000221283',
+//         'barcodeCorica': '1080903895896',
         "strSource": "https://thehappyfoodie.co.uk/recipes/ricotta-cake-budino-di-ricotta ",
 
         "strImageSource": null,
@@ -3191,9 +3099,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','	074574953000','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.vodkaandbiscuits.com/2014/03/06/bangin-breakfast-potatoes /",
 
         "strImageSource": null,
@@ -3303,9 +3212,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['	00000185','4607070042181','1056614410079'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.holland.com/global/tourism/information/traditional-dutch-food/bitterballen.htm ",
 
         "strImageSource": null,
@@ -3419,10 +3329,11 @@ export const data = [[
         "strSource": "",
 
         "strImageSource": null,
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeSvinina':'1070929311036',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['000000221283','1070929311036','1056614410079','0000000001144'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeBread':'0000000001144',
         "strCreativeCommonsConfirmed": null,
 
         "dateModified": null
@@ -3530,7 +3441,8 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "",
-        'barcodeChesnock':'	074574953000',
+'barcodeTest':['	074574953000'],
+//         'barcodeChesnock':'	074574953000',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -3638,7 +3550,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.delicious.com.au/recipes/finally-recipe-worlds-top-selling-burger-big-mac/5221ee4a-279e-4a0b-8629-f442dc46822e",
 
         "strImageSource": null,
@@ -3748,9 +3661,10 @@ export const data = [[
         "strMeasure19": "1 чашка",
 
         "strMeasure20": "1 черточка",
-        'barcodeMuka':'	00000185',
-        'barcodeSvinina':'1070929311036',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['	00000185','1070929311036','0880730105264'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.allrecipes.com/recipe/138131/bigos-hunters-stew /",
 
         "strImageSource": null,
@@ -3859,9 +3773,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['4607070042181','1070929311036','00000079'],
+//         "barcode":'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.bbcgoodfood.com/recipes/boxty-bacon-eggs-tomatoes ",
 
         "strImageSource": null,
@@ -3971,7 +3886,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSugar':'000000221283',
+'barcodeTest':['000000221283'],
+//         'barcodeSugar':'000000221283',
         "strSource": "https://rasamalaysia.com/beef-rendang-recipe-rendang-daging /",
 
         "strImageSource": null,
@@ -4081,7 +3997,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.visit-croatia.co.uk/croatian-cuisine/croatian-recipes /",
 
         "strImageSource": null,
@@ -4191,10 +4108,11 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','00000079','	00000185','000000221283',],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSugar':'000000221283',
 
         "strSource": "http://www.goodtoknow.co.uk/recipes/536028/chocolate-gateau ",
 
@@ -4415,11 +4333,12 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        "barcode":'4607070042181',
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4607070042181','00000079','	00000185','1056614410079',],
+//         "barcode":'4607070042181',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
 
         "strSource": "https://www.instagram.com/p/BHyuMZ1hZX0 ",
 
@@ -4645,7 +4564,8 @@ export const data = [[
         "strSource": "",
 
         "strImageSource": null,
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079',],
+//         'barcodeSol':'1056614410079',
 
         "strCreativeCommonsConfirmed": null,
 
@@ -4756,10 +4676,11 @@ export const data = [[
         "strSource": "",
 
         "strImageSource": null,
-        'barcodeSol':'1056614410079',
-        'barcodeMilk':'00000079',
-        'barcodeMashrums':'0880730105264',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','00000079','0880730105264','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMilk':'00000079',
+//         'barcodeMashrums':'0880730105264',
+//         'barcodeMasloOil':'0049248011058',
         "strCreativeCommonsConfirmed": null,
 
         "dateModified": null
@@ -4865,7 +4786,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://twistedfood.co.uk/chicken-fajita-mac-n-cheese /",
 
         "strImageSource": null,
@@ -5085,8 +5007,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
-        'barcodeTmin':'1080903899719',
+'barcodeTest':['1080903899719','00000079'],
+//         'barcodeMilk':'00000079',
+//         'barcodeTmin':'1080903899719',
         "strSource": "http://www.nobiggie.net/crock-pot-chicken-baked-tacos /",
 
         "strImageSource": null,
@@ -5196,8 +5119,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['000000221283','1080903899238'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://norecipes.com/karaage-recipe ",
 
         "strImageSource": null,
@@ -5307,8 +5231,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeKurinieBedra':'	4607177073163',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['	4607177073163','0049248011058'],
+//         'barcodeKurinieBedra':'	4607177073163',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/1913655/coq-au-vin ",
 
         "strImageSource": null,
@@ -5418,10 +5343,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeChesnock':'	074574953000',
-        'barcodeBread':'0000000001144',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4820138101198','0049248011058','	074574953000','0000000001144'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeBread':'0000000001144',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/1269/chilli-prawn-linguine ",
 
         "strImageSource": null,
@@ -5531,7 +5457,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
+'barcodeTest':['00000079'],
+//         'barcodeMilk':'00000079',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/clam-chowder ",
 
@@ -5640,8 +5567,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['000000221283','0049248011058'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/2604646/creamy-tomato-soup ",
 
         "strImageSource": null,
@@ -5751,7 +5679,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['0880730105264'],
+//         'barcodeMashrums':'0880730105264',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/chicken-mushroom-hot-pot ",
 
@@ -5862,9 +5791,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903897944','1080903899238','0049248011058'],
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/13139/onepan-chicken-couscous ",
 
         "strImageSource": null,
@@ -6084,8 +6014,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['4820138101198','4607070042181'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
         "strSource": "https://www.bbcgoodfood.com/recipes/choc-chip-pecan-pie ",
 
         "strImageSource": null,
@@ -6306,8 +6237,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeKoriandr':'1080903897944',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903897944','0049248011058'],
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/chickpea-fajitas ",
 
         "strImageSource": null,
@@ -6417,8 +6349,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeMilk':'00000079',
+'barcodeTest':['4607070042181','00000079'],
+//         "barcode":'4607070042181',
+//         'barcodeMilk':'00000079',
 
         "strSource": "https://www.bbc.co.uk/food/recipes/creamy_chicken_ham_and_03877 ",
 
@@ -6529,7 +6462,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
+'barcodeTest':['	074574953000'],
+//         'barcodeChesnock':'	074574953000',
         "strSource": "https://www.bbc.co.uk/food/recipes/chicken_parmentier_25434 ",
 
         "strImageSource": null,
@@ -6639,11 +6573,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeCorica': '1080903895896',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4820138101198','4607070042181','1080903895896','1056614410079','000000221283'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.bbc.co.uk/food/recipes/classic_carrot_cake_08513 ",
 
         "strImageSource": null,
@@ -6753,11 +6688,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4820138101198','4607070042181','1080903895896','00000079','1056614410079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.bbc.co.uk/food/recipes/chelsea_buns_95015 ",
 
         "strImageSource": null,
@@ -6868,7 +6804,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4820138101198'],
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/5816/hot-chocolate-souffls-with-chocolate-cream-sauce ",
 
@@ -6979,8 +6916,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeApple':'4607012711489',
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4820138101198','4607012711489'],
+//         'barcodeApple':'4607012711489',
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/chinon-apple-tarts ",
 
@@ -7091,8 +7029,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMashrums':'0880730105264',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','0880730105264'],
+//         'barcodeMashrums':'0880730105264',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/3146682/chicken-marengo ",
 
         "strImageSource": null,
@@ -7202,7 +7141,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['4607070042181'],
+//         'barcodeEGS':'4607070042181',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/1837/canadian-butter-tarts ",
 
@@ -7314,8 +7254,9 @@ export const data = [[
         "strMeasure19": "служить",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.rivercottage.net/recipes/chicken-basquaise ",
 
         "strImageSource": null,
@@ -7535,9 +7476,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1056614410079','1080903897944','1080903899238'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://sueandgambo.com/pages/chicken-congee ",
 
         "strImageSource": null,
@@ -7757,10 +7699,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeSol':'1056614410079',
-        'barcodeTmin':'1080903899719',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','4607070042181','1080903899719','0049248011058'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeSol':'1056614410079',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.curiouscuisiniere.com/chakchouka /",
 
         "strImageSource": null,
@@ -7870,8 +7813,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodePechene': '7622210453853',
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['7622210453853','4820138101198'],
+//         'barcodePechene': '7622210453853',
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "http://allrecipes.co.uk/recipe/40152/cashew-ghoriba-biscuits.aspx ",
 
@@ -7982,8 +7926,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeTmin':'1080903899719',
-        'barcodeChechevica':'058504786043',
+'barcodeTest':['1080903899719','058504786043'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChechevica':'058504786043',
         "strSource": "https://findingtimeforcooking.com/main-dishes/red-lentil-soup-corba /",
 
         "strImageSource": null,
@@ -8095,7 +8040,8 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "https://www.bbcgoodfood.com/recipes/1826685/christmas-pudding-trifle ",
-        'barcodeSugarDemerara':'4103520006401',
+'barcodeTest':['4103520006401'],
+//         'barcodeSugarDemerara':'4103520006401',
 
         "strImageSource": null,
 
@@ -8204,8 +8150,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeApple':'4607012711489',
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['4607012711489','4607070042181'],
+//         'barcodeApple':'4607012711489',
+//         'barcodeEGS':'4607070042181',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/classic-christmas-pudding ",
 
@@ -8317,9 +8264,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMindal':'4813635001283',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['4813635001283','4607070042181','4606598000116'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMindal':'4813635001283',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.bbcgoodfood.com/recipes/angela-nilsens-christmas-cake ",
 
         "strImageSource": null,
@@ -8542,10 +8490,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeChesnock':'	074574953000',
-        'barcodeSvinina':'1070929311036',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['1056614410079','	074574953000','1070929311036','0880730105264'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.bonappetit.com/columns/cooking-without-recipes/article/kale-cabbage-sausage-weeknight-dinner",
 
         "strImageSource": null,
@@ -8655,7 +8604,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/griddled-chicken-quinoa-greek-salad ",
 
@@ -8766,12 +8716,13 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','4607070042181','4820138101198','00000079','	00000185','1056614410079'],
+//         "barcode":'4607070042181',
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://hilahcooking.com/chick-fil-a-copycat /",
 
         "strImageSource": null,
@@ -8881,7 +8832,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['1070929311036'],
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.bbcgoodfood.com/recipes/irish-coddled-pork-cider ",
 
         "strImageSource": null,
@@ -8991,8 +8943,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4606598000116','1056614410079'],
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeSol':'1056614410079',
 
         "strSource": "https://whereismyspoon.co/cevapi-or-cevapcici-recipe-grilled-sausages-croatian-food /",
 
@@ -9104,7 +9057,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
 
         "strSource": "https://flawlessfood.co.uk/croatian-lamb-peka /",
 
@@ -9325,8 +9279,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['4607070042181','0000000001144'],
+//         "barcode":'4607070042181',
+//         'barcodeBread':'0000000001144',
         "strSource": "https://cookpad.com/uy/recetas/116102-chivito-uruguayo ",
 
         "strImageSource": null,
@@ -9437,9 +9392,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeKurkuma':'1080903899214',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1056614410079','1080903899214','1080903899238'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeKurkuma':'1080903899214',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.instagram.com/p/BO21bpYD3Fu ",
 
         "strImageSource": null,
@@ -9549,11 +9505,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMindal':'4813635001283',
-        'barcodeMilk':'00000079',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['4820138101198','4607070042181','4813635001283','00000079','4606598000116'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMindal':'4813635001283',
+//         'barcodeMilk':'00000079',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.bbcgoodfood.com/recipes/2155640/dundee-cake ",
 
         "strImageSource": null,
@@ -9884,10 +9841,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeCorica': '1080903895896',
-        'barcodeSugar':'000000221283',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903895896','4607070042181','000000221283','000000221283'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeSugar':'000000221283',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.bbcgoodfood.com/recipes/786659/eccles-cakes ",
 
         "strImageSource": null,
@@ -9997,9 +9955,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeBread':'0000000001144',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['0000000001144','4607070042181','0880730105264'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeBread':'0000000001144',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.bbc.co.uk/food/recipes/stressfreefullenglis_67721 ",
 
         "strImageSource": null,
@@ -10109,8 +10068,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['000000221283','1080903899238'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.africanbites.com/jamaican-escovitched-fish /",
 
         "strImageSource": null,
@@ -10220,9 +10180,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['000000221283','1056614410079','0880730105264'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://sueandgambo.com/pages/egg-drop-soup ",
 
         "strImageSource": null,
@@ -10332,10 +10293,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','1080903899719','074574953000','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.food.com/recipe/egyptian-faatah-rice-meat-with-crispy-bread-on-bottom-194764 ",
 
         "strImageSource": null,
@@ -10447,7 +10409,8 @@ export const data = [[
         "strMeasure20": "",
 
         "strSource": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
 
         "strImageSource": null,
 
@@ -10560,8 +10523,9 @@ export const data = [[
         "strSource": "",
 
         "strImageSource": null,
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','1056614410079'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
 
         "strCreativeCommonsConfirmed": null,
 
@@ -10778,9 +10742,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeBread':'0000000001144',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['4607070042181','0000000001144','0880730105264'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeBread':'0000000001144',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.bbc.co.uk/food/recipes/stressfreefullenglis_67721 ",
 
         "strImageSource": null,
@@ -10890,10 +10855,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeChesnock':'	074574953000',
-        'barcodeBread':'0000000001144',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['000000221283','0000000001144','	074574953000','0049248011058'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeBread':'0000000001144',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/3020694/french-onion-soup ",
 
         "strImageSource": null,
@@ -11003,8 +10969,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4607070042181','1056614410079'],
+//         "barcode":'4607070042181',
+//         'barcodeSol':'1056614410079',
+
         "strSource": "http://www.deliciousmagazine.co.uk/recipes/flamiche-flemish-leek-tart /",
 
         "strImageSource": null,
@@ -11114,8 +11082,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['4607070042181'],
+//         "barcode":'4607070042181',
+//         'barcodeEGS':'4607070042181',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/1669/ultimate-french-omelette ",
 
@@ -11226,8 +11195,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeBread':'0000000001144',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0000000001144','0049248011058'],
+//         'barcodeBread':'0000000001144',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/532640/summer-fish-stew-with-rouille ",
 
         "strImageSource": null,
@@ -11337,7 +11307,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
+'barcodeTest':['00000079'],
+//         'barcodeMilk':'00000079',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/fennel-dauphinoise ",
 
@@ -11453,8 +11424,9 @@ export const data = [[
         "strSource": "",
 
         "strImageSource": null,
-        'barcodeMuka':'	00000185',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['00000185','000000221283'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeSugar':'000000221283',
 
         "strCreativeCommonsConfirmed": null,
 
@@ -11563,8 +11535,9 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "",
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['1056614410079','000000221283'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -11672,9 +11645,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903899719','	074574953000','0049248011058'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.epicurious.com/recipes/food/views/ful-medames-352993 ",
 
         "strImageSource": null,
@@ -11784,10 +11758,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMuka':'	00000185',
-        'barcode':'4870004200555',
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['	00000185','4870004200555','0049248011058','1056614410079'],
+//         'barcodeMuka':'	00000185',
+//         'barcode':'4870004200555',
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://amiraspantry.com/egyptian-feteer-meshaltet /",
 
         "strImageSource": null,
@@ -11897,10 +11872,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['4607070042181','	00000185','1080903897944','1080903899238'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.olivemagazine.com/recipes/fish-and-seafood/fish-fofos /",
 
         "strImageSource": null,
@@ -12011,8 +11987,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079','	00000185'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.visit-croatia.co.uk/croatian-cuisine/croatian-recipes /",
 
         "strImageSource": null,
@@ -12233,7 +12210,8 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": null,
 
         "strImageSource": null,
@@ -12343,7 +12321,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeBread':'0000000001144',
+'barcodeTest':['0000000001144'],
+//         'barcodeBread':'0000000001144',
         "strSource": "https://leitesculinaria.com/103647/recipes-grilled-mac-and-cheese-sandwich.html ",
 
         "strImageSource": null,
@@ -12453,10 +12432,11 @@ export const data = [[
         "strMeasure19": "2 нарезанных",
 
         "strMeasure20": "1 чайная ложка",
-        "barcode":'4607070042181',
-        'barcodeSol':'1056614410079',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['4607070042181','1056614410079','4606598000116','1080903899238'],
+//         "barcode":'4607070042181',
+//         'barcodeSol':'1056614410079',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.skinnytaste.com/general-tsos-chicken /",
 
         "strImageSource": null,
@@ -12566,10 +12546,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeCorica': '1080903895896',
-        'barcodeSugar':'000000221283',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903895896','000000221283','	074574953000','0049248011058'],
+//         'barcodeCorica': '1080903895896',
+//         'barcodeSugar':'000000221283',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/gigantes-plaki ",
 
         "strImageSource": null,
@@ -12682,7 +12663,8 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "https://www.allrecipes.com/recipe/234975/golabki-stuffed-cabbage-rolls /",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
 
         "strImageSource": null,
 
@@ -12791,7 +12773,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.olivemagazine.com/recipes/fish-and-seafood/grilled-portuguese-sardines /",
 
         "strImageSource": null,
@@ -12901,7 +12884,8 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": null,
 
         "strImageSource": null,
@@ -13124,11 +13108,12 @@ export const data = [[
         "strMeasure20": "",
 
         "strSource": "https://sueandgambo.com/pages/chinese-hot-and-sour-soup ",
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeTofu':'	085696382050',
-        'barcodeSvinina':'1070929311036',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['1056614410079','000000221283','	085696382050','1070929311036','0880730105264'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeTofu':'	085696382050',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeMashrums':'0880730105264',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -13237,10 +13222,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','000000221283','00000079','	00000185'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSugar':'000000221283',
 
         "strSource": "http://chef-raphael.com/home-made-mandazi-recipe/#more-106 ",
 
@@ -13353,7 +13339,8 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
 
         "strImageSource": null,
 
@@ -13462,8 +13449,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodePechene': '7622210453853',
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['7622210453853','4607070042181'],
+//         'barcodePechene': '7622210453853',
+//         'barcodeEGS':'4607070042181',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/honey-yogurt-cheesecake ",
 
@@ -13574,9 +13562,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeChesnock':'	074574953000',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['	074574953000','1070929311036','4607070042181'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.bbcgoodfood.com/recipes/ham-hock-colcannon ",
 
         "strImageSource": null,
@@ -13686,9 +13675,10 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeSugar':'000000221283',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4820138101198','000000221283','0049248011058'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeSugar':'000000221283',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.ottolenghi.co.uk/recipes/meat/irish-stew-shop ",
 
         "strImageSource": null,
@@ -13798,8 +13788,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
+'barcodeTest':['00000079','	00000185'],
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/13354/jam-rolypoly ",
 
@@ -13910,9 +13901,10 @@ export const data = [[
         "strMeasure19": "1 столовая ложка",
 
         "strMeasure20": "800 г",
-        'barcodeKokoMilk':'0016229001711',
-        'barcodeImbir':'1080903899238',
-        'barcodeKurinieBedra':'	4607177073163',
+'barcodeTest':['0016229001711','1080903899238','	4607177073163'],
+//         'barcodeKokoMilk':'0016229001711',
+//         'barcodeImbir':'1080903899238',
+//         'barcodeKurinieBedra':'	4607177073163',
         "strSource": "https://www.bbcgoodfood.com/recipes/2369635/jerk-chicken-with-rice-and-peas ",
 
         "strImageSource": null,
@@ -14022,8 +14014,9 @@ export const data = [[
         "strMeasure19": "1 столовая ложка",
 
         "strMeasure20": "1/4 стакана",
-        "barcode":'4607070042181',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4607070042181','1056614410079'],
+//         "barcode":'4607070042181',
+//         'barcodeSol':'1056614410079',
 
         "strSource": "https://www.thespruce.com/jamaican-beef-patties-recipe-2137762 ",
 
@@ -14244,9 +14237,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeSugar':'000000221283',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['4607070042181','000000221283','1070929311036'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeSugar':'000000221283',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.bbcgoodfood.com/recipes/japanese-katsudon ",
 
         "strImageSource": null,
@@ -14466,8 +14460,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['	00000185','1056614410079'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
 
         "strSource": "http://www.tablespoon.com/recipes/copycat-kfc-original-style-chicken/97c93d14-9d8c-4bc7-96dc-1e0b37e4fcaa",
 
@@ -14688,9 +14683,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodePechene': '7622210453853',
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['7622210453853','4820138101198','000000221283'],
+//         'barcodePechene': '7622210453853',
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.bbcgoodfood.com/recipes/2155644/key-lime-pie ",
 
         "strImageSource": null,
@@ -14800,9 +14796,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeTmin':'1080903899719',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903899719','1080903897944','1080903899238'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry ",
 
         "strImageSource": null,
@@ -14912,9 +14909,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeKoriandr':'1080903897944',
+'barcodeTest':['4607070042181','00000079','1080903897944'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeKoriandr':'1080903897944',
         "strSource": "https://www.bbcgoodfood.com/recipes/10421/kedgeree ",
 
         "strImageSource": null,
@@ -15024,8 +15022,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
-        "strSource": "http://allrecipes.co.uk/recipe/1773/kung-pao-chicken.aspx ",
+'barcodeTest':['	074574953000'],
+//         'barcodeChesnock':'	074574953000',
+//         "strSource": "http://allrecipes.co.uk/recipe/1773/kung-pao-chicken.aspx ",
 
         "strImageSource": null,
 
@@ -15134,9 +15133,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeChesnock':'	074574953000',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['	074574953000','4820138101198','1080903899238'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.bbcgoodfood.com/recipes/1415664/kung-po-prawns ",
 
         "strImageSource": null,
@@ -15246,9 +15246,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4607070042181','1056614410079','0049248011058'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://allrecipes.co.uk/recipe/12294/kafteji--tunisian-fried-vegetables-.aspx ",
 
         "strImageSource": null,
@@ -15358,7 +15359,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://allrecipes.co.uk/recipe/43723/keleya-zaara-tunisian-lamb-with-saffron.aspx ",
 
         "strImageSource": null,
@@ -15578,11 +15580,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','1056614410079','00000079','	00000185','000000221283'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.mythirtyspot.com/krispy-kreme-copycat-recipe-for /",
 
         "strImageSource": null,
@@ -15692,8 +15695,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeKoriandr':'1080903897944',
+'barcodeTest':['1080903897944','1056614410079'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeKoriandr':'1080903897944',
         "strSource": "https://www.themediterraneandish.com/egyptian-koshari-recipe /",
 
         "strImageSource": null,
@@ -15803,10 +15807,11 @@ export const data = [[
         "strMeasure19": "2 средних",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeCorica': '1080903895896',
-        'barcodeSugar':'000000221283',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4820138101198', '1080903895896','000000221283','0049248011058'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeSugar':'000000221283',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.ottolenghi.co.uk/recipes/meat/lamb-tomato-and-sweet-spices-shop ",
 
         "strImageSource": null,
@@ -15916,7 +15921,8 @@ export const data = [[
         "strMeasure19": "1 чайная ложка",
 
         "strMeasure20": "1 столовая ложка",
-        'barcodeCorica': '1080903895896',
+'barcodeTest':['1080903895896'],
+//         'barcodeCorica': '1080903895896',
         "strSource": "http://www.relishthebite.com/restaurant-style-lamb-biryani /",
 
         "strImageSource": null,
@@ -16026,8 +16032,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903897944','1080903899238'],
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
         "strSource": "http://www.bbcgoodfood.com/recipes/9643/onepan-rogan-josh ",
 
         "strImageSource": null,
@@ -16137,7 +16144,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/prawn-laksa-curry-bowl ",
 
         "strImageSource": null,
@@ -16247,10 +16255,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeCorica': '1080903895896',
-        'barcodeTmin':'1080903899719',
-        'barcodeImbir':'1080903899238',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','1080903895896','1080903899719','1080903899238'],
+//         'barcodeCorica': '1080903895896',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeImbir':'1080903899238',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/2303638/family-meals-easy-lamb-tagine -",
 
         "strImageSource": null,
@@ -16360,7 +16369,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/classic-lasagne ",
 
         "strImageSource": null,
@@ -16470,8 +16480,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
+'barcodeTest':['4607070042181','	00000185'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
 
         "strSource": "https://www.bbc.co.uk/food/recipes/lambandpotatopie_83913 ",
 
@@ -16692,9 +16703,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeTmin':'1080903899719',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','1080903899719','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://allrecipes.co.uk/recipe/43419/leblebi--tunisian-chickpea-soup-.aspx ",
 
         "strImageSource": null,
@@ -16806,8 +16818,9 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "",
-        'barcodeSol':'1056614410079',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['1056614410079','0000000001144'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeBread':'0000000001144',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -16915,7 +16928,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/lamb-lemon-dill-souvlaki ",
 
         "strImageSource": null,
@@ -17025,9 +17039,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeTmin':'1080903899719',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','1080903899719','1080903897944'],
+
+//         'barcodeTmin':'1080903899719',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/lamb-burgers-tzatziki ",
 
         "strImageSource": null,
@@ -17137,7 +17153,8 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://thelemonsqueezy.com/recipe/mediterranean-pasta-salad /",
 
         "strImageSource": null,
@@ -17357,7 +17374,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['0880730105264'],
+//         'barcodeMashrums':'0880730105264',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/mushroom-chestnut-rotolo ",
 
@@ -17468,11 +17486,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeTmin':'1080903899719',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeKurkuma':'1080903899214',
-        'barcodeImbir':'1080903899238',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['1080903899719','1080903897944','1080903899214','1080903899238','0000000001144'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeKurkuma':'1080903899214',
+//         'barcodeImbir':'1080903899238',
+//         'barcodeBread':'0000000001144',
         "strSource": "https://www.bbcgoodfood.com/recipes/matar-paneer ",
 
         "strImageSource": null,
@@ -17582,7 +17601,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['0880730105264'],
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.bbc.co.uk/food/recipes/mincedbeefpie_89198 ",
 
         "strImageSource": null,
@@ -17692,11 +17712,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
-        'barcodeSol':'1056614410079',
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
-        'barcodeKoriandr':'1080903897944',
+'barcodeTest':['00000079','1056614410079','1080903899719','	074574953000','1080903897944'],
+//         'barcodeMilk':'00000079',
+//         'barcodeSol':'1056614410079',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeKoriandr':'1080903897944',
         "strSource": "https://www.bbc.co.uk/food/recipes/mcsinghs_scotch_pie_98356 ",
 
         "strImageSource": null,
@@ -17806,10 +17827,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
+'barcodeTest':['00000079','4820138101198','4607070042181','00000185'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
         "strSource": "https://www.bbc.co.uk/food/recipes/madeiracake_73878 ",
 
         "strImageSource": null,
@@ -17919,9 +17941,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeKoriandr':'1080903897944',
+'barcodeTest':['1056614410079','000000221283','1080903897944'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeKoriandr':'1080903897944',
         "strSource": "http://www.meatwave.com/blog/montreal-smoked-meat-recipe ",
 
         "strImageSource": null,
@@ -18031,10 +18054,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeTofu':'	085696382050',
-        'barcodeImbir':'1080903899238',
-         'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','	085696382050','1080903899238','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeTofu':'	085696382050',
+//         'barcodeImbir':'1080903899238',
+//          'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.chinasichuanfood.com/mapo-tofu-recipe /",
 
         "strImageSource": null,
@@ -18146,7 +18170,8 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -18254,8 +18279,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4820138101198','4607070042181'],
+//         "barcode":'4607070042181',
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/2174/unbelievably-easy-mince-pies ",
 
@@ -18366,7 +18392,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
+'barcodeTest':['4607070042181'],
+//         "barcode":'4607070042181',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/must-make-moussaka ",
 
@@ -18477,9 +18504,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','	074574953000','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://chefindisguise.com/2017/05/15/mulukhiyah-a-stew-fit-for-royals /",
 
         "strImageSource": null,
@@ -18589,7 +18617,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMilk':'00000079',
+'barcodeTest':['00000079'],
+//         'barcodeMilk':'00000079',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/mustard-champ ",
 
@@ -18700,10 +18729,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['00000079','1080903899719','	074574953000','1080903897944','0049248011058'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.sanjeevkapoor.com/Recipe/Moroccan-Carrot-Soup.html ",
 
         "strImageSource": null,
@@ -18813,9 +18843,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeChesnock':'	074574953000',
-        'barcodeTofu':'	085696382050',
+'barcodeTest':['4607070042181','	085696382050','	074574953000'],
+//         "barcode":'4607070042181',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeTofu':'	085696382050',
         "strSource": "https://www.nyonyacooking.com/recipes/mee-goreng-mamak ~BkTLRjTuX",
 
         "strImageSource": null,
@@ -18925,7 +18956,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['0880730105264'],
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.visit-croatia.co.uk/croatian-cuisine/croatian-recipes /",
 
         "strImageSource": null,
@@ -19034,8 +19066,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903897944','1080903899238'],
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.bbcgoodfood.com/recipes/11753/nutty-chicken-curry ",
 
         "strImageSource": null,
@@ -19145,9 +19178,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4820138101198','4820138101198','000000221283'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.bbcgoodfood.com/recipes/2869/new-york-cheesecake ",
 
         "strImageSource": null,
@@ -19257,8 +19291,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4820138101198','4820138101198','4607070042181'],
+//         "barcode":'4607070042181',
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/nanaimo-bars ",
 
@@ -19369,10 +19404,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeSugar':'000000221283',
-        'barcodeKokoMilk':'0016229001711',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['0016229001711','000000221283','4607070042181','1080903899238'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeSugar':'000000221283',
+//         'barcodeKokoMilk':'0016229001711',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.allrecipes.com/recipe/78938/malaysian-nasi-lemak /",
 
         "strImageSource": null,
@@ -19482,8 +19518,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMuka':'	00000185',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','	00000185'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.cookstr.com/Meat/Osso-Buco-alla-Milanese ",
 
         "strImageSource": null,
@@ -19593,7 +19630,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903899238'],
+//         'barcodeImbir':'1080903899238',
         "strSource": "http://allrecipes.co.uk/recipe/5392/jamaican-oxtail-with-broad-beans.aspx ",
 
         "strImageSource": null,
@@ -19703,8 +19741,9 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        "barcode":'4607070042181',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','000000221283'],
+//         "barcode":'4607070042181',
+//         'barcodeSugar':'000000221283',
         "strSource": null,
 
         "strImageSource": null,
@@ -19814,7 +19853,8 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.instagram.com/p/BHxR7hYBJ6P ",
 
         "strImageSource": null,
@@ -20034,7 +20074,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/pilchard-puttanesca ",
 
         "strImageSource": null,
@@ -20144,8 +20185,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSvinina':'1070929311036',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['1070929311036','0000000001144'],
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeBread':'0000000001144',
         "strSource": "https://www.bbcgoodfood.com/recipes/jacks-pork-cassoulet ",
 
         "strImageSource": null,
@@ -20255,10 +20297,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','00000079','	00000185','000000221283'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.bbcgoodfood.com/recipes/2907669/easy-pancakes ",
 
         "strImageSource": null,
@@ -20368,11 +20411,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4607070042181','4820138101198','1080903895896','00000079','1056614410079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.bbcgoodfood.com/recipes/1742633/pumpkin-pie ",
 
         "strImageSource": null,
@@ -20482,7 +20526,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
+'barcodeTest':['00000079'],
+//         'barcodeMilk':'00000079',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/1759649/peanut-butter-cheesecake ",
 
@@ -20593,10 +20638,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
+'barcodeTest':['	00000185','4820138101198','1080903895896','00000079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
         "strSource": "https://www.bbcgoodfood.com/recipes/1553651/peach-and-blueberry-grunt ",
 
         "strImageSource": null,
@@ -20706,9 +20752,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
+'barcodeTest':['	00000185','4607070042181','00000079'],
+//         "barcode":'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/1940684/parkin ",
 
@@ -20819,8 +20866,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeCorica': '1080903895896',
+'barcodeTest':['4820138101198','1080903895896'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeCorica': '1080903895896',
         "strSource": "https://www.bbcgoodfood.com/recipes/4778/pear-tarte-tatin ",
 
         "strImageSource": null,
@@ -20930,11 +20978,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','	074574953000','00000079','4607070042181'],
+//         "barcode":'4607070042181',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/6428/provenal-omelette-cake ",
 
         "strImageSource": null,
@@ -21044,7 +21093,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/71600/prawn-and-fennel-bisque ",
 
         "strImageSource": null,
@@ -21154,8 +21204,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['00000079','1056614410079'],
+//         'barcodeMilk':'00000079',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie -",
 
         "strImageSource": null,
@@ -21265,11 +21316,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','00000079','	00000185','4606598000116','000000221283'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeSugar':'000000221283',
         "strSource": "http://www.geniuskitchen.com/recipe/pouding-chomeur-poor-mans-pudding-with-maple-syrup-sauce-218797",
 
         "strImageSource": null,
@@ -21379,9 +21431,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodePechene': '7622210453853',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','7622210453853','000000221283'],
+//         "barcode":'4607070042181',
+//         'barcodePechene': '7622210453853',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://tasty.co/recipe/3-ingredient-peanut-butter-cookies ",
 
         "strImageSource": null,
@@ -21491,9 +21544,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','0049248011058','000000221283'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.dailymail.co.uk/femail/food/article-8240361/Pizza-Express-release-secret-recipe-Margherita-Pizza-make-home.html",
 
         "strImageSource": null,
@@ -21603,10 +21657,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079','4607070042181','	00000185'],
+//         "barcode":'4607070042181',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.food.com/recipe/paszteciki-polish-pasties-117909 ",
 
         "strImageSource": null,
@@ -21716,10 +21771,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079','4607070042181','	00000185','4606598000116'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.allrecipes.com/recipe/109914/pierogi-polish-dumplings /",
 
         "strImageSource": null,
@@ -21829,11 +21885,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['1056614410079','4607070042181','	00000185','00000079','000000221283'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.tasteatlas.com/nalesniki/recipe ",
 
         "strImageSource": null,
@@ -21943,8 +22000,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeKoriandr':'1080903897944',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903899238','1080903897944'],
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://www.olivemagazine.com/recipes/family/piri-piri-chicken-and-winter-slaw /",
 
         "strImageSource": null,
@@ -22054,8 +22112,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4820138101198','0049248011058'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.olivemagazine.com/recipes/meat-and-poultry/portuguese-prego-with-green-piri-piri /",
 
         "strImageSource": null,
@@ -22165,8 +22224,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSvinina':'1070929311036',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1070929311036','0049248011058'],
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.olivemagazine.com/recipes/meat-and-poultry/febras-assadas-portuguese-barbecued-pork-served-with-lemon-and-mayo-on-chips/",
 
         "strImageSource": null,
@@ -22276,7 +22336,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeKoriandr':'1080903897944',
+'barcodeTest':['1080903897944'],
+//         'barcodeKoriandr':'1080903897944',
         "strSource": "https://www.olivemagazine.com/recipes/one-pots/portuguese-fish-stew-caldeirada-de-peixe /",
 
         "strImageSource": null,
@@ -22386,9 +22447,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeCorica': '1080903895896',
+'barcodeTest':['4820138101198','4607070042181','1080903895896'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeCorica': '1080903895896',
         "strSource": "https://www.olivemagazine.com/recipes/baking-and-desserts/portuguese-custard-tarts /",
 
         "strImageSource": null,
@@ -22498,9 +22560,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeSugar':'000000221283',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4820138101198','000000221283','0049248011058'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeSugar':'000000221283',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.ottolenghi.co.uk/recipes/meat/rigatoni-with-fennel-sausage-sauce-and-pecorino-and-anchovy-pesto-shop",
 
         "strImageSource": null,
@@ -22720,10 +22783,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeTmin':'1080903899719',
-        'barcodeKurkuma':'1080903899214',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903899719','000000221283','1080903899214','1080903899238'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeKurkuma':'1080903899214',
+//         'barcodeImbir':'1080903899238',
         "strSource": "http://www.flavorsofmumbai.com/fish-recheado-masala-recipe /",
 
         "strImageSource": null,
@@ -22833,7 +22897,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://cooking.nytimes.com/recipes/1016052-ribollita ",
 
         "strImageSource": null,
@@ -22943,8 +23008,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','1056614410079'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.seriouseats.com/recipes/2016/03/roasted-eggplant-tahini-pine-nut-lentil-vegan-experience-recipe.html",
 
         "strImageSource": null,
@@ -23054,11 +23120,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['4820138101198','4607070042181','00000079','	00000185','4606598000116'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.bbc.co.uk/food/recipes/rock_cakes_03094 ",
 
         "strImageSource": null,
@@ -23168,9 +23235,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['000000221283','	074574953000','0049248011058'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/2903/ratatouille ",
 
         "strImageSource": null,
@@ -23280,7 +23348,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "http://allrecipes.com/recipe/234025/rappie-pie /",
 
         "strImageSource": null,
@@ -23389,8 +23458,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
-        'barcodeKokoMilk':'0016229001711',
+'barcodeTest':['	074574953000','0016229001711'],
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeKokoMilk':'0016229001711',
         "strSource": "http://caribbeanpot.com/caribbean-red-peas-soup /",
 
         "strImageSource": null,
@@ -23500,7 +23570,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.homestylemag.co.uk/recipe/517/main-courses/roast-fennel-and-aubergine-paella ",
 
         "strImageSource": null,
@@ -23610,7 +23681,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://polishhousewife.com/rosol-polish-chicken-soup /",
 
         "strImageSource": null,
@@ -23720,8 +23792,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['	00000185','4606598000116'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.food.com/recipe/rogaliki-polish-croissant-cookies-with-jam-filling-200668 ",
 
         "strImageSource": null,
@@ -23831,8 +23904,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4607070042181','1056614410079'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.196flavors.com/malaysia-roti-john /",
 
         "strImageSource": null,
@@ -23942,8 +24016,9 @@ export const data = [[
         "strMeasure19": null,
 
         "strMeasure20": null,
-        'barcodeMashrums':'0880730105264',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0880730105264','0049248011058'],
+//         'barcodeMashrums':'0880730105264',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": null,
 
         "strImageSource": null,
@@ -24057,7 +24132,8 @@ export const data = [[
         "strSource": null,
 
         "strImageSource": null,
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
 
         "strCreativeCommonsConfirmed": null,
 
@@ -24164,10 +24240,11 @@ export const data = [[
         "strMeasure19": "1 чайная ложка",
 
         "strMeasure20": "",
-        'barcodeCorica': '1080903895896',
-        'barcodeTmin':'1080903899719',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903895896','0049248011058','1080903899719','1080903897944'],
+//         'barcodeCorica': '1080903895896',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.wholeheartedeats.com/2016/11/smoky-lentil-chili-squash /",
 
         "strImageSource": null,
@@ -24278,8 +24355,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMilk':'00000079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['000000221283','00000079'],
+//         'barcodeMilk':'00000079',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.youtube.com/watch ?v=Wytv3bjqJII",
 
         "strImageSource": null,
@@ -24391,8 +24469,9 @@ export const data = [[
         "strMeasure20": "",
 
         "strSource": "",
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1056614410079','0049248011058'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -24500,7 +24579,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.seriouseats.com/2014/09/one-pot-wonders-stovetop-eggplant-harissa-chickpeas-cumin.html ",
 
         "strImageSource": null,
@@ -24721,8 +24801,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodePechene': '7622210453853',
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['7622210453853','4820138101198'],
+//         'barcodePechene': '7622210453853',
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "http://www.janespatisserie.com/2015/11/09/no-bake-salted-caramel-cheesecake /",
 
@@ -24833,7 +24914,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/seafood-fideua-paella ",
 
         "strImageSource": null,
@@ -24943,9 +25025,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMilk':'00000079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','4820138101198','00000079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeMilk':'00000079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/531632/spinach-and-ricotta-cannelloni ",
 
         "strImageSource": null,
@@ -25055,7 +25138,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/creamy-squash-linguine ",
 
         "strImageSource": null,
@@ -25165,9 +25249,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeEGS':'4607070042181',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058','4607070042181'],
+//         "barcode":'4607070042181',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/spanish-tortilla ",
 
         "strImageSource": null,
@@ -25277,7 +25362,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.bbc.co.uk/food/recipes/steakandkidneypie_73308 ",
 
         "strImageSource": null,
@@ -25387,10 +25473,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
+'barcodeTest':['4607070042181','00000079','	00000185','4606598000116'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
         "strSource": "https://www.bbc.co.uk/food/recipes/marys_sticky_toffee_41970 ",
 
         "strImageSource": null,
@@ -25500,10 +25587,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4820138101198','00000079','	00000185','1056614410079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.bbcgoodfood.com/recipes/2686661/spotted-dick ",
 
         "strImageSource": null,
@@ -25613,8 +25701,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['4820138101198','0000000001144'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeBread':'0000000001144',
         "strSource": "https://www.bbcgoodfood.com/recipes/4516/summer-pudding ",
 
         "strImageSource": null,
@@ -25724,7 +25813,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
+'barcodeTest':['	074574953000'],
+//         'barcodeChesnock':'	074574953000',
         "strSource": "https://www.bbcgoodfood.com/recipes/summer-pistou ",
 
         "strImageSource": null,
@@ -25834,7 +25924,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeBread':'0000000001144',
+'barcodeTest':['0000000001144'],
+//         'barcodeBread':'0000000001144',
         "strSource": "https://www.bbcgoodfood.com/recipes/1022639/split-pea-and-green-pea-smoked-ham-soup ",
 
         "strImageSource": null,
@@ -25944,9 +26035,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4607070042181','00000079','1056614410079'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
+//         'barcodeSol':'1056614410079',
         "strSource": "http://allrecipes.com/recipe/213595/miraculous-canadian-sugar-pie /",
 
         "strImageSource": null,
@@ -26056,8 +26148,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSol':'1056614410079',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['0880730105264','1056614410079'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.saveur.com/article/Recipes/Classic-Steak-Diane ",
 
         "strImageSource": null,
@@ -26167,9 +26260,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['	00000185','1056614410079','0049248011058'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbc.co.uk/food/recipes/saltfish__ackee_with_64803 ",
 
         "strImageSource": null,
@@ -26279,11 +26373,12 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeSvinina':'1070929311036',
-        'barcodeKoriandr':'1080903897944',
+'barcodeTest':['4607070042181','1056614410079','000000221283','1070929311036','1080903897944'],
+//         "barcode":'4607070042181',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeKoriandr':'1080903897944',
         "strSource": "https://www.chinahighlights.com/travelguide/chinese-food/cooking/sweet-sour-pork.htm ",
 
         "strImageSource": null,
@@ -26393,10 +26488,11 @@ export const data = [[
         "strMeasure19": "1 чайная ложка",
 
         "strMeasure20": "1 столовая ложка",
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeImbir':'1080903899238',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['1080903899238','1056614410079','000000221283','0880730105264'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeImbir':'1080903899238',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://sueandgambo.com/pages/szechuan-beef ",
 
         "strImageSource": null,
@@ -26506,9 +26602,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeSugar':'000000221283',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['1080903899238','4607070042181','000000221283'],
+//         "barcode":'4607070042181',
+//         'barcodeSugar':'000000221283',
+//         'barcodeImbir':'1080903899238',
         "strSource": "https://sueandgambo.com/pages/shrimp-chow-fun ",
 
         "strImageSource": null,
@@ -26618,7 +26715,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/4521/salmon-avocado-and-cucumber-salad ",
 
         "strImageSource": null,
@@ -26728,9 +26826,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodebutter':'4870004200555',
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['4870004200555','4607070042181'],
+//         "barcode":'4607070042181',
+//         'barcodebutter':'4870004200555',
+//         'barcodeEGS':'4607070042181',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/73606/eggs-benedict-with-smoked-salmon-and-chives ",
 
@@ -26841,11 +26940,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4820138101198','4607070042181','1080903897944','0049248011058'],
+//         "barcode":'4607070042181',
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/7573/spicy-tomato-baked-eggs ",
 
         "strImageSource": null,
@@ -26955,8 +27055,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeKurkuma':'1080903899214',
+'barcodeTest':['1080903899214','4607070042181'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeKurkuma':'1080903899214',
         "strSource": "https://www.bbcgoodfood.com/recipes/2256/smoked-haddock-kedgeree ",
 
         "strImageSource": null,
@@ -27066,9 +27167,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMilk':'00000079',
-        'barcodeSol':'1056614410079',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['00000079','1056614410079','1070929311036'],
+//         'barcodeMilk':'00000079',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.thespruceeats.com/stamppot-with-curly-kale-and-rookworst-1128837 ",
 
         "strImageSource": null,
@@ -27178,7 +27280,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['1070929311036'],
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.thespruceeats.com/traditional-dutch-split-pea-soup-1129011 ",
 
         "strImageSource": null,
@@ -27288,7 +27391,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe ",
 
         "strImageSource": null,
@@ -27402,8 +27506,9 @@ export const data = [[
         "strSource": "",
 
         "strImageSource": null,
-        'barcodeSugar':'000000221283',
-        'barcodeBread':'0000000001144',
+'barcodeTest':['000000221283','0000000001144'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeBread':'0000000001144',
         "strCreativeCommonsConfirmed": null,
 
         "dateModified": null
@@ -27509,9 +27614,10 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeApple':'4607012711489',
-        'barcodeSugar':'000000221283',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['000000221283','4607012711489','1070929311036'],
+//         'barcodeApple':'4607012711489',
+//         'barcodeSugar':'000000221283',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "",
 
         "strImageSource": null,
@@ -27621,11 +27727,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['000000221283','1080903895896','00000079','	00000185','1056614410079'],
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
         "strSource": "https://www.joyofbaking.com/StrawberryRhubarbPie.html ",
 
         "strImageSource": null,
@@ -27735,10 +27842,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeCorica': '1080903895896',
-        'barcodeSugar':'000000221283',
-        'barcodeChesnock':'	074574953000',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['000000221283','1080903895896','	074574953000','0049248011058'],
+//         'barcodeCorica': '1080903895896',
+//         'barcodeSugar':'000000221283',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/stuffed-tomatoes-lamb-mince-dill-rice ",
 
         "strImageSource": null,
@@ -27848,7 +27956,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0049248011058'],
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.thespruceeats.com/polish-herrings-in-oil-recipe-1135618 ",
 
         "strImageSource": null,
@@ -27958,11 +28067,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
-        'barcodeKoriandr':'1080903897944',
-        'barcodeKurinieBedra':'	4607177073163',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['1080903899719','1080903897944','	074574953000','0049248011058','	4607177073163'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeKoriandr':'1080903897944',
+//         'barcodeKurinieBedra':'	4607177073163',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.recipetineats.com/chicken-sharwama-middle-eastern /",
 
         "strImageSource": null,
@@ -28072,8 +28182,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        "barcode":'4607070042181',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4607070042181','0049248011058'],
+//         "barcode":'4607070042181',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.olivemagazine.com/recipes/fish-and-seafood/spring-onion-and-prawn-empanadas /",
 
         "strImageSource": null,
@@ -28183,11 +28294,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
-        'barcodeKokoMilk':'0016229001711',
+'barcodeTest':['4607070042181','	00000185','1056614410079','000000221283','0016229001711'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeKokoMilk':'0016229001711',
         "strSource": "https://makan.ch/recipe/kuih-seri-muka /",
 
         "strImageSource": null,
@@ -28297,7 +28409,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4820138101198'],
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/simple-sushi ",
 
@@ -28628,7 +28741,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
+'barcodeTest':['000000221283'],
+//         'barcodeSugar':'000000221283',
         "strSource": "http://www.bbcgoodfood.com/recipes/3235/thai-green-chicken-curry ",
 
         "strImageSource": null,
@@ -28738,8 +28852,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSvinina':'1070929311036',
-        'barcodeMilk':'00000079',
+'barcodeTest':['1070929311036','00000079'],
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeMilk':'00000079',
         "strSource": "http://www.deliciousmagazine.co.uk/recipes/georgina-fuggles-horseradish-and-vine-tomato-toad-in-the-hole/",
 
         "strImageSource": null,
@@ -28849,8 +28964,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4607070042181','0049248011058'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/turkey-meatloaf ",
 
         "strImageSource": null,
@@ -28960,8 +29076,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4607070042181','0049248011058'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/9529/winter-tuna-nioise ",
 
         "strImageSource": null,
@@ -29071,8 +29188,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChechevica':'058504786043',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['058504786043','0049248011058'],
+//         'barcodeChechevica':'058504786043',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/veggie-tahini-lentils ",
 
         "strImageSource": null,
@@ -29182,8 +29300,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
+'barcodeTest':['4607070042181','00000079'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
         "strSource": "https://www.bbc.co.uk/food/recipes/three_fish_pie_58875 ",
 
         "strImageSource": null,
@@ -29293,7 +29412,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
+'barcodeTest':['4607070042181'],
+//         'barcodeEGS':'4607070042181',
 
         "strSource": "https://www.bbc.co.uk/food/recipes/mary_berrys_treacle_tart_28524 ",
 
@@ -29404,8 +29524,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeApple':'4607012711489',
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4607012711489','4820138101198'],
+//         'barcodeApple':'4607012711489',
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/tarte-tatin ",
 
@@ -29517,8 +29638,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeEGS':'4607070042181',
-        'barcodeMilk':'00000079',
+'barcodeTest':['4607070042181','00000079'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMilk':'00000079',
         "strSource": "https://www.bbcgoodfood.com/recipes/3028701/threecheese-souffls ",
 
         "strImageSource": null,
@@ -29629,10 +29751,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeCorica': '1080903895896',
-        'barcodeChesnock':'	074574953000',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['4607070042181','1080903895896','	074574953000','1070929311036'],
+//         "barcode":'4607070042181',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.bbcgoodfood.com/recipes/531644/spiced-pork-and-potato-pie ",
 
         "strImageSource": null,
@@ -29742,13 +29865,14 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        "barcode":'4607070042181',
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeSol':'1056614410079',
-        'barcodeSugar':'000000221283',
+'barcodeTest':['4607070042181','4820138101198','00000079','	00000185','4606598000116','1056614410079','000000221283'],
+//         "barcode":'4607070042181',
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeSol':'1056614410079',
+//         'barcodeSugar':'000000221283',
         "strSource": "http://www.geniuskitchen.com/recipe/drop-doughnuts-133877 ",
 
         "strImageSource": null,
@@ -29858,11 +29982,12 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4607070042181','4820138101198','00000079','	00000185','4606598000116','0049248011058'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://allrecipes.co.uk/recipe/16067/tunisian-orange-cake.aspx ",
 
         "strImageSource": null,
@@ -29972,8 +30097,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
-        'barcodeTmin':'1080903899719',
+'barcodeTest':['1056614410079','1080903899719'],
+//         'barcodeSol':'1056614410079',
+//         'barcodeTmin':'1080903899719',
         "strSource": "http://allrecipes.co.uk/recipe/16694/tunisian-lamb-soup.aspx ",
 
         "strImageSource": null,
@@ -30083,8 +30209,9 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeEGS':'4607070042181',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['4607070042181','0049248011058'],
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMasloOil':'0049248011058',
 
         "strSource": "http://allrecipes.co.uk/recipe/3096/tunisian-tuna-and-egg-briks.aspx ",
 
@@ -30195,10 +30322,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeMuka':'	00000185',
-        'barcodeRazrahliyt':'4606598000116',
-        'barcodeTmin':'1080903899719',
-        'barcodeChesnock':'	074574953000',
+'barcodeTest':['	00000185','4606598000116','1080903899719','	074574953000'],
+//         'barcodeMuka':'	00000185',
+//         'barcodeRazrahliyt':'4606598000116',
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChesnock':'	074574953000',
         "strSource": "https://oukosher.org/recipes/tamiya-egyptian-dried-fava-bean-fritters /",
 
         "strImageSource": null,
@@ -30308,10 +30436,11 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeMuka':'	00000185',
-        'barcodeSvinina':'1070929311036',
+'barcodeTest':['	00000185','4820138101198','4607070042181','1070929311036'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSvinina':'1070929311036',
         "strSource": "https://www.bbcgoodfood.com/recipes/tonkatsu-pork ",
 
         "strImageSource": null,
@@ -30421,7 +30550,8 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSol':'1056614410079',
+'barcodeTest':['1056614410079'],
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.chasingthedonkey.com/croatian-recipes-traditional-croatian-goulash /",
 
         "strImageSource": null,
@@ -30752,9 +30882,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSugar':'000000221283',
-        'barcodeSvinina':'1070929311036',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['000000221283','1070929311036','0049248011058'],
+//         'barcodeSugar':'000000221283',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "http://www.hungryhuy.com/bun-thit-nuong-recipe-vietnamese-grilled-bbq-pork-with-rice-vermicelli-vegetables/",
 
         "strImageSource": null,
@@ -30864,10 +30995,11 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeSugar':'000000221283',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['000000221283','1080903895896','0049248011058','00000079'],
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeSugar':'000000221283',
+//         'barcodeMasloOil':'0049248011058',
         "strSource": "https://www.bbcgoodfood.com/recipes/venetian-duck-ragu ",
 
         "strImageSource": null,
@@ -30977,8 +31109,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeTmin':'1080903899719',
-        'barcodeChechevica':'058504786043',
+'barcodeTest':['1080903899719','058504786043'],
+//         'barcodeTmin':'1080903899719',
+//         'barcodeChechevica':'058504786043',
         "strSource": "https://www.bbcgoodfood.com/recipes/1993645/vegetarian-casserole ",
 
         "strImageSource": null,
@@ -31201,8 +31334,9 @@ export const data = [[
         "strMeasure20": " ",
 
         "strSource": "",
-        'barcodeMashrums':'0880730105264',
-        'barcodeMasloOil':'0049248011058',
+'barcodeTest':['0880730105264','0049248011058'],
+//         'barcodeMashrums':'0880730105264',
+//         'barcodeMasloOil':'0049248011058',
         "strImageSource": null,
 
         "strCreativeCommonsConfirmed": null,
@@ -31310,7 +31444,8 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
+'barcodeTest':['4820138101198'],
+//         'barcodeSweetPudra':'4820138101198',
 
         "strSource": "https://www.bbcgoodfood.com/recipes/2540/white-chocolate-crme-brle ",
 
@@ -31421,9 +31556,10 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeChesnock':'	074574953000',
-        'barcodeSvinina':'1070929311036',
-        'barcodeImbir':'1080903899238',
+'barcodeTest':['4820138101198','	074574953000','1070929311036','1080903899238'],
+//         'barcodeChesnock':'	074574953000',
+//         'barcodeSvinina':'1070929311036',
+//         'barcodeImbir':'1080903899238',
         "strSource": "http://www.geniuskitchen.com/recipe/chinese-wontons-20235 ",
 
         "strImageSource": null,
@@ -31533,12 +31669,13 @@ export const data = [[
         "strMeasure19": " ",
 
         "strMeasure20": " ",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeEGS':'4607070042181',
-        'barcodeCorica': '1080903895896',
-        'barcodeMilk':'00000079',
-        'barcodeMuka':'	00000185',
-        'barcodeSol':'1056614410079',
+'barcodeTest':['4820138101198','4607070042181','1080903895896','00000079','00000185','1056614410079'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeEGS':'4607070042181',
+//         'barcodeCorica': '1080903895896',
+//         'barcodeMilk':'00000079',
+//         'barcodeMuka':'	00000185',
+//         'barcodeSol':'1056614410079',
         "strSource": "https://www.visit-croatia.co.uk/croatian-cuisine/croatian-recipes /",
 
         "strImageSource": null,
@@ -31648,8 +31785,9 @@ export const data = [[
         "strMeasure19": "",
 
         "strMeasure20": "",
-        'barcodeSweetPudra':'4820138101198',
-        'barcodeMashrums':'0880730105264',
+'barcodeTest':['4820138101198','0880730105264'],
+//         'barcodeSweetPudra':'4820138101198',
+//         'barcodeMashrums':'0880730105264',
         "strSource": "https://www.bbcgoodfood.com/recipes/yaki-udon ",
 
         "strImageSource": null,
@@ -31660,4 +31798,4 @@ export const data = [[
 
     }
 
-]];
+ ]];

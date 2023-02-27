@@ -20,7 +20,7 @@ const useFilter = () => {
     })
   
 
-  return { /*myFilt*/getdata, filtStatus }
+  return { getdata, filtStatus }
 }
 
 export default useFilter;
