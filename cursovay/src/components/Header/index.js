@@ -12,7 +12,7 @@ const Header = ({children}) => {
 <NavLink style={{textDecoration:'none'}} to='/'><h2 className={`${styles['title']}  pt-3`}>AYMLMENU</h2></NavLink>
 <NavLink to='/booking' className={`${styles['reservbutton']}  pt-3`} >
 <img src={buttonIcon} alt='button'/>
-Make a reservation
+Оставить комментарий
 </NavLink>
 
 </div>

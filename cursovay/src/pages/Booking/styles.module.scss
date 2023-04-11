@@ -12,8 +12,12 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .buttonGoBack{
+    margin-top: 1%;
+    margin-left: 2%;
     background: none;
     position: absolute;
     background-color: #759541;
@@ -27,22 +31,15 @@
     transform: rotate(180deg);
 }
 .form{
-width: 60%;
+width: 100%;
 display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
-align-self: center;
 gap: 25px;
-.inputBookingGuases{
-    border: 4px solid rgba(155, 210, 65, 0.63);
-    border-radius: 15px;
-    font-style: normal;
-    color: #636363;
-    }
 }
 .name{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap:14px
 }
 .contacNumber{
@@ -56,6 +53,13 @@ justify-content: center;
 align-content: center;
 text-align: center;
 gap: 50px;}
+.description{
+text-align: center;
+color: #666464;
+align-self: center;
+border: none;
+font-size: 12px;
+}
 .title{
 font-family: 'Modern No. 20';
 font-style: normal;
@@ -82,16 +86,16 @@ border: 4px solid rgba(155, 210, 65, 0.63);
 border-radius: 15px;
 font-style: normal;
 color: #636363;
+flex: 0 0 50%;
 }
-.inputBookingDate{
-    text-align: center;
+.inputComment{
     border: 4px solid rgba(155, 210, 65, 0.63);
     border-radius: 15px;
     font-style: normal;
-    color: #636363; 
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
+    color: #636363;
+    width:100%; 
+    height:150px;
+    }
 .book{
     padding: 69px 89px;
     display: flex;
@@ -122,10 +126,11 @@ color: #636363;
     line-height: 41px;
     text-align: center;
     color: #000000;
-    font-size: 36px;
+    font-size: 26px;
 }
 .textModal{
     color: #000000;
+    text-align: center;
 }
 .goodBoking{
     width: 40%;

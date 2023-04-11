@@ -6,7 +6,7 @@ import barcodeSlice from './reducer/barcodeSlice';
 const rootReducer = combineReducers({
 	search: searchSlice,
 	status: statusSlice,
-	barcode: barcodeSlice
+	barcode: barcodeSlice,
 });
 
 export const setupStore = () => {

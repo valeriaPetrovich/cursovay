@@ -1,54 +1,53 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Form from "react-bootstrap/Form";
 import styles from "./styles.module.scss";
-import DatePicker from "react-datepicker";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import goodBoking from "../../assets/Group 30.svg";
 import useGoback from "../../hoock/useGoBack";
-import "react-datepicker/dist/react-datepicker.css";
 import img from "../../assets/unsplash_godkmdG6M6o.jpg";
 import vector from "../../assets/Vector 14.svg";
 import { NavLink } from "react-bootstrap";
+import { useDispatch} from 'react-redux';
 
 const Booking = () => {
+  const [nameRecipe, setNameRecipe] = useState("");
+  const [email, setEmail] = useState("");
+  const [comments, setComments] = useState("");
   const [show, setShow] = useState(false);
-  const [startDate, setStartDate] = useState(new Date());
-  const [stateTime, setStateTime] = useState("");
   const { goBack } = useGoback();
-  const dataPickerModalDate = startDate.toLocaleDateString("ru-RU");
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
-  const time = [
-    "9:00",
-    "9:30",
-    "10:00",
-    "10:30",
-    "11:00",
-    "11:30",
-    "12:00",
-    "12:30",
-    "13:00",
-    "13:30",
-    "14:00",
-    "14:30",
-    "15:00",
-    "15:30",
-    "16:00",
-    "16:30",
-    "17:00",
-    "17:30",
-    "18:00",
-    "18:30",
-    "19:00",
-    "19:30",
-    "20:00",
-    "20:30",
-    "21:00",
-    "21:30",
-    "22:00",
-  ];
+  const commentsValue = {
+    recipe_name: nameRecipe,
+    email: email,
+    comment: comments,
+  };
+
+  const dispatch = useDispatch();
+  const fetcheComment = () => {
+  };
+  const getItems = () => {
+    // localStorage.setItem(
+    //   `Коментарий от ${commentsValue.email} к рецепту ${commentsValue.recipe_name}`,
+    //   commentsValue.comment
+    // );
+    // localStorage.setItem(
+    //   commentsValue.recipe_name,
+    //   commentsValue.comment
+    // );
+    localStorage.setItem(
+      commentsValue.recipe_name,
+      JSON.stringify(commentsValue)
+    );
+    setShow(true);
+    fetcheComment();
+  };
+
+
+
+
+
   return (
     <div className={styles.content}>
       <div>
@@ -64,28 +63,18 @@ const Booking = () => {
         </NavLink>
         <div className={styles.formContent}>
           <div className={styles.form}>
+            <p className={styles.description}>
+              Укажите пожалуйста название рецепта, коментарий к которому вы
+              хотите оставить, и ваш адрес электронной, чтобы мы могли связаться
+              с вами.
+            </p>
             <div className={styles.name}>
               <Form.Group>
                 <Form.Control
                   id="disabledTextInput"
-                  placeholder="Имя"
+                  placeholder="Название рецепта"
                   className={styles.inputBooking}
-                />
-              </Form.Group>
-              <Form.Group>
-                <Form.Control
-                  id="disabledTextInput"
-                  placeholder="Фамилия"
-                  className={styles.inputBooking}
-                />
-              </Form.Group>
-            </div>
-            <div className={styles.name}>
-              <Form.Group>
-                <Form.Control
-                  id="disabledTextInput"
-                  placeholder="Номер телефона"
-                  className={styles.inputBooking}
+                  onChange={(e) => setNameRecipe(e.target.value)}
                 />
               </Form.Group>
               <Form.Group>
@@ -93,38 +82,22 @@ const Booking = () => {
                   id="disabledTextInput"
                   placeholder="Электронная почта"
                   className={styles.inputBooking}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </Form.Group>
             </div>
-            <div className={styles.name}>
-              <Form.Group className="mb-3">
-                <DatePicker
-                  className={styles.inputBookingDate}
-                  selected={startDate}
-                  onChange={(date) => setStartDate(date)}
-                />
-              </Form.Group>
-              <Form.Group className="mb-3">
-                <Form.Select
-                  className={styles.inputBooking}
-                  onChange={(e) => setStateTime(e.target.value)}
-                >
-                  {time.map((e) => (
-                    <option>{e}</option>
-                  ))}
-                </Form.Select>
-              </Form.Group>
-            </div>
-            <Form.Group className="mb-3">
-              <Form.Control
-                id="disabledTextInput"
-                placeholder="Количество гостей"
-                className={styles.inputBookingGuases}
-              />
+            <Form.Group>
+              <textarea
+                formcontrolname="myText"
+                adaptiveinputdirective=""
+                placeholder="Оставте свой комментарий"
+                className={styles.inputComment}
+                onChange={(e) => setComments(e.target.value)}
+              ></textarea>
             </Form.Group>
           </div>
-          <button className={styles.buttonBoking} onClick={handleShow}>
-            Забронировать
+          <button className={styles.buttonBoking} onClick={getItems}>
+            Отправить отзыв
           </button>
         </div>
       </div>
@@ -137,10 +110,11 @@ const Booking = () => {
           <div className={styles.book}>
             <img src={goodBoking} alt="" className={styles.goodBoking} />
             <div>
-              <p className={styles.titleModal}>Столик успешно забронирован!</p>
+              <p className={styles.titleModal}>
+                Ваш комментарий был успешно отправлен!
+              </p>
               <p className={styles.textModal}>
-                Ждем вас с нетерпением {dataPickerModalDate} в {stateTime} по
-                адресу: г.Минск, ул. Карла Маркса,0
+                Спасибо за Ваш отзыв и за то, что помогаете нам стать лучше!
               </p>
             </div>
             <Button
