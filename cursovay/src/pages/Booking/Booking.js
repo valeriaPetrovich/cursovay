@@ -8,7 +8,22 @@ import useGoback from "../../hoock/useGoBack";
 import img from "../../assets/unsplash_godkmdG6M6o.jpg";
 import vector from "../../assets/Vector 14.svg";
 import { NavLink } from "react-bootstrap";
-import { useDispatch} from 'react-redux';
+import { initializeApp } from "firebase/app";
+import {getFirestore,collection, addDoc, getDocs} from 'firebase/firestore';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyANOJoYDh4JbPMmLQdOI8AlBQjsB_kZLRc",
+  authDomain: "aymlmenu.firebaseapp.com",
+  projectId: "aymlmenu",
+  storageBucket: "aymlmenu.appspot.com",
+  messagingSenderId: "643635001166",
+  appId: "1:643635001166:web:d5c9718c76689db5e8901f",
+  measurementId: "G-W77RKN4SK6"
+};
+const firebaseApp = initializeApp(firebaseConfig);
+const db = getFirestore(firebaseApp);
+const commentsCol = collection(db,'comment');
+
 
 const Booking = () => {
   const [nameRecipe, setNameRecipe] = useState("");
@@ -18,35 +33,25 @@ const Booking = () => {
   const { goBack } = useGoback();
   const handleClose = () => setShow(false);
 
-  const commentsValue = {
-    recipe_name: nameRecipe,
-    email: email,
-    comment: comments,
-  };
+  const addCommentFromFirebase = async () => {
+    const docRef = await addDoc(commentsCol, {
+      RecipeName: nameRecipe,
+      UserEmail: email,
+      Comment: comments,
+  
+     });
+    return docRef
+  }
 
-  const dispatch = useDispatch();
-  const fetcheComment = () => {
-  };
+  const getComment = async () => {
+    const querySnapshot = await getDocs(commentsCol);
+    querySnapshot.forEach((doc) => {
+      console.log(doc.data().RecipeName)
+    });}
+
   const getItems = () => {
-    // localStorage.setItem(
-    //   `Коментарий от ${commentsValue.email} к рецепту ${commentsValue.recipe_name}`,
-    //   commentsValue.comment
-    // );
-    // localStorage.setItem(
-    //   commentsValue.recipe_name,
-    //   commentsValue.comment
-    // );
-    localStorage.setItem(
-      commentsValue.recipe_name,
-      JSON.stringify(commentsValue)
-    );
-    setShow(true);
-    fetcheComment();
+    addCommentFromFirebase();
   };
-
-
-
-
 
   return (
     <div className={styles.content}>
@@ -61,6 +66,7 @@ const Booking = () => {
         <NavLink to="/" className={styles.title}>
           AYMLMENU
         </NavLink>
+        <button onClick={getComment}></button>
         <div className={styles.formContent}>
           <div className={styles.form}>
             <p className={styles.description}>

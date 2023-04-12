@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import styles from "./CardDetails.module.scss";
 import Table from "react-bootstrap/Table";
@@ -13,32 +13,63 @@ import youtubeIcon from "../../assets/Vector (1).svg";
 import vector from "../../assets/Vector 14.svg";
 import useGoback from "../../hoock/useGoBack";
 import user from "../../assets/user.png";
+import { initializeApp } from "firebase/app";
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  where,
+  query,
+} from "firebase/firestore";
+import {
+  setReceptNameSlise,
+  setCommentSlise,
+} from "../../store/reducer/commentSlice";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyANOJoYDh4JbPMmLQdOI8AlBQjsB_kZLRc",
+  authDomain: "aymlmenu.firebaseapp.com",
+  projectId: "aymlmenu",
+  storageBucket: "aymlmenu.appspot.com",
+  messagingSenderId: "643635001166",
+  appId: "1:643635001166:web:d5c9718c76689db5e8901f",
+  measurementId: "G-W77RKN4SK6",
+};
+
+const firebaseApp = initializeApp(firebaseConfig);
+const db = getFirestore(firebaseApp);
+const commentsCol = collection(db, "comment");
 
 const CardDetails = () => {
   let { id } = useParams();
   const { getdata } = useFilter();
   const { goBack } = useGoback();
+
   let display;
   display = getdata.map((el) => {
     if (el.idMeal === id) {
-      const cartItems = JSON.parse(localStorage.getItem(el.strMeal));
-      let commentihn = () => {
-        if (cartItems === null) {
-          return <></>;
-        } else if (el.strMeal === cartItems.recipe_name) {
-          return (
-            <div>
-              <h2>Комментарии</h2>
+      const getComment = async () => {
+        const querySnapshot = await getDocs(commentsCol);
+        querySnapshot.forEach((doc) => {
+          if (doc.data().RecipeName === el.strMeal) {
+            const comm = doc.data().Comment;
+            console.log(typeof comm);
+            return (
               <div>
-                <img src={user} alt="user" />
+                <h2>Комментарии</h2>
                 <div>
-                  <p>{cartItems.comment}</p>
+                  <img src={user} alt="user" />
+                  <div>
+                    <p>{comm}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        }
+            );
+          }
+        });
       };
+
+      
       return (
         <div className={styles.contentDetalic}>
           <img src={vetka} alt="" className={styles.vetka1} />
@@ -120,7 +151,7 @@ const CardDetails = () => {
                   />
                 </a>
               </div>
-              <>{commentihn()}</>
+              {/* <>{getComment()}</> */}
             </div>
           </div>
           <img src={vetkaBottom} alt="" className={styles.vetka2} />
