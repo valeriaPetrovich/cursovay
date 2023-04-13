@@ -12,64 +12,23 @@ import iconRecept from "../../assets/Vector.svg";
 import youtubeIcon from "../../assets/Vector (1).svg";
 import vector from "../../assets/Vector 14.svg";
 import useGoback from "../../hoock/useGoBack";
-import user from "../../assets/user.png";
-import { initializeApp } from "firebase/app";
-import {
-  getFirestore,
-  collection,
-  getDocs,
-  where,
-  query,
-} from "firebase/firestore";
-import {
-  setReceptNameSlise,
-  setCommentSlise,
-} from "../../store/reducer/commentSlice";
+import useComment from "../../hoock/useComment";
+import { useSelector } from "react-redux";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyANOJoYDh4JbPMmLQdOI8AlBQjsB_kZLRc",
-  authDomain: "aymlmenu.firebaseapp.com",
-  projectId: "aymlmenu",
-  storageBucket: "aymlmenu.appspot.com",
-  messagingSenderId: "643635001166",
-  appId: "1:643635001166:web:d5c9718c76689db5e8901f",
-  measurementId: "G-W77RKN4SK6",
-};
 
-const firebaseApp = initializeApp(firebaseConfig);
-const db = getFirestore(firebaseApp);
-const commentsCol = collection(db, "comment");
+
 
 const CardDetails = () => {
-  let { id } = useParams();
+  let { id } = useParams();  
   const { getdata } = useFilter();
-  const { goBack } = useGoback();
+  const { goBack } = useGoback(); 
+  const comments = useSelector((state) => state.comment.comment);
+  console.log(comments)
+
 
   let display;
   display = getdata.map((el) => {
     if (el.idMeal === id) {
-      const getComment = async () => {
-        const querySnapshot = await getDocs(commentsCol);
-        querySnapshot.forEach((doc) => {
-          if (doc.data().RecipeName === el.strMeal) {
-            const comm = doc.data().Comment;
-            console.log(typeof comm);
-            return (
-              <div>
-                <h2>Комментарии</h2>
-                <div>
-                  <img src={user} alt="user" />
-                  <div>
-                    <p>{comm}</p>
-                  </div>
-                </div>
-              </div>
-            );
-          }
-        });
-      };
-
-      
       return (
         <div className={styles.contentDetalic}>
           <img src={vetka} alt="" className={styles.vetka1} />
@@ -151,7 +110,7 @@ const CardDetails = () => {
                   />
                 </a>
               </div>
-              {/* <>{getComment()}</> */}
+              {/* <>{commentElement}</> */}
             </div>
           </div>
           <img src={vetkaBottom} alt="" className={styles.vetka2} />
