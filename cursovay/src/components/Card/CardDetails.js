@@ -12,8 +12,7 @@ import iconRecept from "../../assets/Vector.svg";
 import youtubeIcon from "../../assets/Vector (1).svg";
 import vector from "../../assets/Vector 14.svg";
 import useGoback from "../../hoock/useGoBack";
-import useComment from "../../hoock/useComment";
-import { useSelector } from "react-redux";
+import Comments from "./Comments";
 
 
 
@@ -22,13 +21,13 @@ const CardDetails = () => {
   let { id } = useParams();  
   const { getdata } = useFilter();
   const { goBack } = useGoback(); 
-  const comments = useSelector((state) => state.comment.comment);
-  console.log(comments)
+
 
 
   let display;
   display = getdata.map((el) => {
     if (el.idMeal === id) {
+      console.log(el.strMeal)
       return (
         <div className={styles.contentDetalic}>
           <img src={vetka} alt="" className={styles.vetka1} />
@@ -110,7 +109,7 @@ const CardDetails = () => {
                   />
                 </a>
               </div>
-              {/* <>{commentElement}</> */}
+             <Comments name={el.strMeal}/>
             </div>
           </div>
           <img src={vetkaBottom} alt="" className={styles.vetka2} />

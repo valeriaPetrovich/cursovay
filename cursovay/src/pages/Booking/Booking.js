@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import styles from "./styles.module.scss";
 import Button from "react-bootstrap/Button";
@@ -8,22 +8,8 @@ import useGoback from "../../hoock/useGoBack";
 import img from "../../assets/unsplash_godkmdG6M6o.jpg";
 import vector from "../../assets/Vector 14.svg";
 import { NavLink } from "react-bootstrap";
-import { initializeApp } from "firebase/app";
-import {getFirestore,collection, addDoc, getDocs} from 'firebase/firestore';
-
-const firebaseConfig = {
-  apiKey: "AIzaSyANOJoYDh4JbPMmLQdOI8AlBQjsB_kZLRc",
-  authDomain: "aymlmenu.firebaseapp.com",
-  projectId: "aymlmenu",
-  storageBucket: "aymlmenu.appspot.com",
-  messagingSenderId: "643635001166",
-  appId: "1:643635001166:web:d5c9718c76689db5e8901f",
-  measurementId: "G-W77RKN4SK6"
-};
-const firebaseApp = initializeApp(firebaseConfig);
-const db = getFirestore(firebaseApp);
-const commentsCol = collection(db,'comment');
-
+import { commentsCol } from "../../firebase";
+import { addDoc } from "firebase/firestore";
 
 const Booking = () => {
   const [nameRecipe, setNameRecipe] = useState("");
@@ -43,14 +29,10 @@ const Booking = () => {
     return docRef
   }
 
-  const getComment = async () => {
-    const querySnapshot = await getDocs(commentsCol);
-    querySnapshot.forEach((doc) => {
-      console.log(doc.data().RecipeName)
-    });}
-
   const getItems = () => {
     addCommentFromFirebase();
+    setShow(true)
+
   };
 
   return (
@@ -66,7 +48,6 @@ const Booking = () => {
         <NavLink to="/" className={styles.title}>
           AYMLMENU
         </NavLink>
-        <button onClick={getComment}></button>
         <div className={styles.formContent}>
           <div className={styles.form}>
             <p className={styles.description}>
